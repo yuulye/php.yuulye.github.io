@@ -43,6 +43,11 @@ return [
 
     'disks' => [
 
+        'post' => [
+            'driver' => 'local',
+            'root' => resource_path('views/post'),
+        ],
+
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),

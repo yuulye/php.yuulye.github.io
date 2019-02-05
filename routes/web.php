@@ -16,3 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'IndexController@index');
+Route::get(
+    '/post/{year}/{month}/{day}/{slug}'
+    , 'IndexController@post'
+);
