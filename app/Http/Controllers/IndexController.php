@@ -6,7 +6,12 @@ use Illuminate\Http\Request;
 use Storage;
 
 class Post {
-    function __construct($storage, $path) {
+    static function get($path) {
+        return new self($path);
+    }
+
+    function __construct($path) {
+        $storage = Storage::disk('post');
         $this->path = $path;
         $dates = explode("/", $path);
         $time = strtotime(implode(
@@ -29,10 +34,11 @@ class Post {
 class IndexController extends Controller
 {
     function post($year, $month, $day, $slug) {
-		$path = implode("/", [
-			'post', $year, $month, $day, $slug
-		]);
-        return view($path);
+        $params = [$year, $month, $day, $slug];
+        $post = Post::get(implode("/", $params));
+        return view('post.'.implode(".", $params), [
+            'post' => $post,
+        ]);
     }
 
     function index() {
@@ -58,7 +64,7 @@ class IndexController extends Controller
         }
         $items = array_unique($items);
         foreach ($items as $item) {
-            $post = new Post($storage, $item);
+            $post = new Post($item);
             $posts[] = $post;
         }
         $posts = collect($posts)->sortByDesc('path');
