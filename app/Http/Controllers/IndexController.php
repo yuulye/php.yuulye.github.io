@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Storage;
+use Carbon\Carbon;
 
 class Post {
     static function get($path) {
@@ -14,10 +15,9 @@ class Post {
         $storage = Storage::disk('post');
         $this->path = $path;
         $dates = explode("/", $path);
-        $time = strtotime(implode(
-            "/", [$dates[1],$dates[2],$dates[0]]
-        ));
-        $this->date = date('Y M d', $time);
+        $this->date = Carbon::createFromDate(
+            $dates[0], $dates[1], $dates[2]
+        );
         try {
             $string = $storage->get($path.'.json');
         } catch (\Exception $e) {
