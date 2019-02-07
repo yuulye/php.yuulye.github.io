@@ -24,7 +24,7 @@
   text-align: center;
 }
 .card .symbol, .card .number {
-  font-size: 16px;
+  font-size: 12px;
 }
 .card .bottom {
   transform: rotate(180deg);

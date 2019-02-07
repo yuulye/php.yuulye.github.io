@@ -40,6 +40,10 @@
   a.nostyle {
     text-decoration: none;
   }
+
+  pre {
+    overflow: scroll;
+  }
 </style>
 @endsection
 
