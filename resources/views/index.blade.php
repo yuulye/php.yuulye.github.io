@@ -2,7 +2,6 @@
 
 @section('content')
   <div style="padding: 8px;">
-    <h1>Hi!</h1>
     <dl>
     @foreach ($posts as $post)
       <dt>

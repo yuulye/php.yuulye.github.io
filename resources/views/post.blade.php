@@ -42,7 +42,7 @@
   }
 
   pre {
-    overflow: scroll;
+    overflow: auto;
   }
 </style>
 @endsection
