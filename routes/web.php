@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/cv', 'CVController@index');
+
 Route::get('/', 'IndexController@index');
 Route::get(
     '/post/{year}/{month}/{day}/{slug}'

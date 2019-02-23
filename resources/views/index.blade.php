@@ -3,9 +3,7 @@
 @section('content')
   <div style="padding: 8px;">
     <p>
-      <a href="{{url('/game/t')}}">
-        <h1>Project T</h1>
-      </a>
+      <a href="{{url('/game/t')}}"><h1>Project T</h1></a>
     </p>
     <dl>
     @foreach ($posts as $post)
@@ -16,11 +14,10 @@
       </dt>
       <dd>
         {{ $post->data->excerpt }}
-        <a href="{{ url('/post/'.$post->path) }}">
-          more...
-        </a>
+        <a href="{{ url('/post/'.$post->path) }}">more...</a>
       </dd>
     @endforeach
     </dl>
   </div>
+  <a href="{{url('/cv')}}"></a>
 @endsection
