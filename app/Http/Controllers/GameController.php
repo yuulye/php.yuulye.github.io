@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class GameController extends Controller
 {
-    function index($slug) {
+    function index($slug, $version = '') {
         return view('game.'.$slug);
     }
 }

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+#board {
+    border-spacing: 8px;
+    font-size: 40px;
+    background: Green;
+}
+#board td {
+    cursor: pointer;
+    background: white;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+}
+
+#convos {
+    position: fixed;
+    left: 256px;
+    top: 32px;
+}
+

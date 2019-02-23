@@ -20,4 +20,4 @@ Route::get(
     '/post/{year}/{month}/{day}/{slug}'
     , 'IndexController@post'
 );
-Route::get('/game/{slug}', 'GameController@index');
+Route::get('/game/{slug}/{version?}', 'GameController@index');
