@@ -2,6 +2,11 @@
 
 @section('content')
   <div style="padding: 8px;">
+    <p>
+      <a href="{{url('/game/t')}}">
+        <h1>Project T</h1>
+      </a>
+    </p>
     <dl>
     @foreach ($posts as $post)
       <dt>

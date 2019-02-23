@@ -8,6 +8,10 @@
 @php
 $row = $col = 3;
 @endphp
+<a href="{{url('/')}}">
+  <i class="fa fa-home"></i> Back
+</a>
+<br/>
 <table id="board">
   @for ($i = 0; $i < $row; $i++)
     <tr>

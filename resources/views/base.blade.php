@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="{{asset('/img/logo.png')}}">
     <title>{{ config('app.name') }}</title>
     <meta
       name="viewport"
