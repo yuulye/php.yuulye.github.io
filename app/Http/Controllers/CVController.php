@@ -10,3 +10,4 @@ class CVController extends Controller
         return view('cv');
     }
 }
+

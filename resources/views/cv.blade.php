@@ -1,5 +1,15 @@
 @extends('base')
 
+@section('head')
+<style>@include('cv.style')</style>
+@endsection
+
 @section('content')
-<h1>CV</h1>
+<div id="main">
+  @include('cv.top')
+  <hr/>
+</div>
+@endsection
+
+@section('body')
 @endsection
