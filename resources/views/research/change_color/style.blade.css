@@ -1,0 +1,11 @@
+@keyframes colorChange {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+div.animate {
+  width: 256px;
+  height: 256px;
+  animation-name: colorChange;
+  animation-fill-mode: forwards;
+}

@@ -23,3 +23,7 @@ Route::get(
     , 'IndexController@post'
 );
 Route::get('/game/{slug}/{version?}', 'GameController@index');
+
+Route::get(
+    '/research/{slug}'
+    , 'ResearchController@index');

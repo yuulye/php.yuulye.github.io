@@ -1,0 +1,52 @@
+function setAnimation() {
+    var el = document.createElement("div");
+    el.className = "animate";
+    el.style.animationDuration = time.value+"s";
+    wrapper.appendChild(el);
+}
+apply.onclick = function () {
+    wrapper.innerHTML = "";
+    var
+          stylesheet = document.styleSheets[2]
+        , rules = stylesheet.rules
+        , i = rules.length
+        , keyframes
+        , keyframe
+    ;
+
+    while (i--) {
+        keyframes = rules.item(i);
+        if (
+            (
+                   keyframes.type === keyframes.KEYFRAMES_RULE
+                || keyframes.type === keyframes.WEBKIT_KEYFRAMES_RULE
+            )
+            && keyframes.name === "colorChange"
+        ) {
+            rules = keyframes.cssRules;
+            i = rules.length;
+            while (i--) {
+                keyframe = rules.item(i);
+                if (
+                    (
+                           keyframe.type === keyframe.KEYFRAME_RULE
+                        || keyframe.type === keyframe.WEBKIT_KEYFRAME_RULE
+                    )
+                ) {
+                    if (keyframe.keyText === "0%") {
+                        keyframe.style.backgroundColor =
+                            from.value;
+                    }
+                    if (keyframe.keyText === "100%") {
+                        keyframe.style.backgroundColor =
+                            to.value;
+                    }
+                }
+            }
+            break;
+        }
+    }
+    setAnimation();
+};
+
+setAnimation();
