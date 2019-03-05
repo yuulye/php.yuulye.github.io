@@ -28,7 +28,7 @@ execute.onclick = function () {
         "y": "fu",
         "z": "zi",
     };
-    var theName = inputName.value;
+    var theName = inputName.value.toLowerCase();
     var japanName = "";
     for (var i = 0; i < theName.length; i++) {
         var letter = theName[i];
