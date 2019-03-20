@@ -18,6 +18,7 @@
       </dd>
     @endforeach
     </dl>
+    @include('disqus')
   </div>
   <a href="{{url('/cv')}}"></a>
   <a href="{{url('/research/change_color')}}"></a>
