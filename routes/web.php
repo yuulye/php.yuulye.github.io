@@ -25,5 +25,10 @@ Route::get(
 Route::get('/game/{slug}/{version?}', 'GameController@index');
 
 Route::get(
+    '/song/{slug}'
+    , 'SongController@index'
+);
+Route::get(
     '/research/{slug}'
-    , 'ResearchController@index');
+    , 'ResearchController@index'
+);
