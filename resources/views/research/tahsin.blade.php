@@ -21,24 +21,9 @@
 	<br/>
 	@include('tahsin.iqlab')
 	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
-	<br/>
+</div>
+<div class="page">
 	@include('tahsin.ikhfa')
-	<!--
-  <div dir="rtl">
-    <span class="arabic" dir="rtl" lang="ar">
-    </span>
-  </div>
-	-->
 </div>
 @endsection
 
