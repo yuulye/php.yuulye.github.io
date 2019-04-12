@@ -4,14 +4,14 @@
       <td class="text" colspan="8">
         IKHFA'
         &nbsp;&nbsp;&nbsp;
-        (<span class="arabic">اخفاء</span>)
+        ( <span class="arabic">اِخْفَاءْ</span> )
         &rarr;
         samar - samar (antara bacaan idzhar &amp; idghom)
         hurufnya 15 (HULIMLAS)
         &nbsp;&nbsp;&nbsp;
-        rumus 3 . 3 . 5 . 3
+        rumus 3 . 3 . 6 . 3
         &nbsp;&nbsp;&nbsp;
-        <span class="arabic">ت ث ج ، د ذ ز ، س ش ص ض ط ظ ، ف ق ك</span>
+        <span class="arabic">ت ث ج ، د ذ ز ، س ش ص ض ط ظ  ، ف ق ك</span>
       </td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@
       <td>مَكِيْكًا</td>
       <td>الْمُكْنِ</td>
       <td>مِنَ</td>
-      <td>كَكْنِ</td>
+      <td>كَكْنَ</td>
       <td>كَنِ</td>
       <td>كُوْكَنْ</td>
       <td>كَ كِ كُ بَكْ</td>
