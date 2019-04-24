@@ -5,23 +5,39 @@ html, body {
   font-size: 16px;
 }
 
+body {
+  margin-top: 64px;
+}
+
 .page {
   position: relative;
   border: 1px solid black;
   width: 1024px;
   height: 1446px;
   margin: 0px auto;
-  margin-bottom: 1px;
+  margin-bottom: 64px;
   padding: 2px;
 }
 
 @font-face {
-  font-family: 'qalammmajeed';
+  font-family: 'QalamMajeed';
   src: url(/font/qalammajeed.ttf);
 }
 
+.arabic {
+  font-family: QalamMajeed;
+  line-height: 2em;
+  font-size: 24px;
+  text-align: right;
+}
+
 @media print {
+  body {
+    margin: 0px;
+  }
+
   .page {
     border: none;
+    margin-bottom: 1px;
   }
 }
