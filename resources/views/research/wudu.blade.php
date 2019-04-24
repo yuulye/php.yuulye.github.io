@@ -4,6 +4,11 @@
   @parent
 
   <style>
+    table {
+      border: 1px solid rgba(0, 0, 0, .7);
+      border-left: 0px;
+      border-right: 0px;
+    }
     table tr td {
       width: 50%;
       vertical-align: top;
@@ -16,9 +21,7 @@
 @endsection
 
 @section('content')
-@for ($i = 0; $i < 10; $i++)
 <div class="page">
   @include('research.wudu.1')
 </div>
-@endfor
 @endsection

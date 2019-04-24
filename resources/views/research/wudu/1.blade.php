@@ -1,49 +1,50 @@
+@include('research.wudu.1-1')
+<hr/>
+Artinya:
+Rasulullah bersabda, "Barangsiapa berwudhu dengan membaguskan wudhu'nya, maka keluarlah dosa-dosanya dari kulitnya sampai  kuku jari-jemarinya".
+<br/>
+<br/>
 <table>
   <tr>
     <td class="bordered">
+      <h2>
+      Doa Ketika Melihat Air
+      </h2>
     </td>
     <td>
       <h2>
-      Doa Ketika Melihat Air
+      Doa Ketika Membasuh Telapak Tangan
       </h2>
     </td>
   </tr>
   <tr>
     <td class="bordered">
-      @include('research.wudu.1-1')
+      @include('research.wudu.melihat_air')
     </td>
     <td>
-      @include('research.wudu.melihat_air')
+      <div class="arabic">
+      اَللّٰهُمَّ احْفkَظْ يَدَيَّ مِنْ مَعَاصِكَ كُلِّهَا
+      </div>
     </td>
   </tr>
   <tr>
     <td class="bordered">
-      <hr/>
-Artinya:
-Rasulullah bersabda, "Barangsiapa berwudhu dengan membaguskan wudhu'nya, maka keluarlah dosa-dosanya dari kulitnya sampai  kuku jari-jemarinya".
-    </td>
-    <td>
       <hr/>
 Al-hamdu lillahilladzi ja'alal-ma'a tahuran
       <hr/>
 Artinya :
 "Segala puji bagi Allah yang telah menjadikan Air ini suci
     </td>
+    <td>
+      <hr/>
+      Allohummahfadz Yadayya Min Ma'asyika Kulliha
+      <hr/>
+      Artinya :
+      "Ya Allah peliharalah kedua tanganku dari semua perbuatan maksiat pada-Mu"
+    </td>
   </tr>
 </table>
 <hr/>
-
-<h2>
-Doa Ketika Membasuh Telapak Tangan
-</h2>
-<div class="arabic">
-اَللّٰهُمَّ احْفkَظْ يَدَيَّ مِنْ مَعَاصِكَ كُلِّهَا
-</div>
-Allohummahfadz Yadayya Min Ma'asyika Kulliha
-<br/>
-Artinya :
-"Ya Allah peliharalah kedua tanganku dari semua perbuatan maksiat pada-Mu"
-<br/>
 
 <h2>
 Doa Saat Berkumur
