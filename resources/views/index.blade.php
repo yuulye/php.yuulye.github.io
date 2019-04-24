@@ -20,10 +20,11 @@
     </dl>
     @include('disqus')
   </div>
+  <a href="{{url('/song/unintended')}}"></a>
   <a href="{{url('/cv')}}"></a>
   <a href="{{url('/research/change_color')}}"></a>
   <a href="{{url('/research/japanese_name')}}"></a>
   <a href="{{url('/research/tahsin')}}"></a>
   <a href="{{url('/research/wudu')}}"></a>
-  <a href="{{url('/song/unintended')}}"></a>
+  <a href="{{url('/research/wudu2')}}"></a>
 @endsection
