@@ -18,6 +18,10 @@ body {
   margin-bottom: 64px;
   padding: 2px;
 }
+.page.landscape {
+  width: 1446px;
+  height: 1000px;
+}
 
 @font-face {
   font-family: 'QalamMajeed';
