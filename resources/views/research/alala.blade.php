@@ -26,4 +26,6 @@
 <div class="page landscape">
   @include('research.alala.1')
 </div>
-@endsection
+<div class="page landscape last">
+  @include('research.alala.2')
+</div>

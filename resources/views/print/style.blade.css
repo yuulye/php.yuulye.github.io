@@ -5,6 +5,10 @@ html, body {
   font-size: 16px;
 }
 
+table {
+  font-size: 16px;
+}
+
 body {
   margin-top: 64px;
 }
@@ -20,7 +24,11 @@ body {
 }
 .page.landscape {
   width: 1446px;
-  height: 1000px;
+  height: 930px;
+  margin-bottom: 65px;
+}
+.page.landscape.last {
+  margin-bottom: 0px;
 }
 
 @font-face {
@@ -36,12 +44,19 @@ body {
 }
 
 @media print {
-  body {
+  html, body {
     margin: 0px;
+    font-size: 14px;
+  }
+  table {
+    font-size: 14px;
   }
 
   .page {
     border: none;
     margin-bottom: 1px;
+  }
+  .page.landscape {
+    height: 1003px;
   }
 }
