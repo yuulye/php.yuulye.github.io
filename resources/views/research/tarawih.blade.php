@@ -23,28 +23,61 @@ body {
   font-size: 2em;
   text-align: right;
 }
+ol {
+	list-style: none;
+	counter-reset: listNumbering;
+}
 li {
   border-bottom: 1px solid rgba(0, 0, 0, .7);
+	margin-bottom: 16px;
+	counter-increment: listNumbering;
+}
+li:before {
+	content: counter(listNumbering, arabic-indic);
+	font-size: 2em;
+	margin-left: -32px;
+	position: relative;
+	top: 40px;
+}
+ol > div.doa {
+	font-weight: bold;
+	padding: 16px;
+	background: rgba(0, 0, 0, .3);
+	margin-left: -36px;
+	text-align: center;
 }
 </style>
 @endsection
 
 @section('content')
-<h1>BILAL TARAWIH</h1>
+<h1 style="text-align: center;">BILAL TARAWIH</h1>
 <ol>
   <li>
     <div class="arabic">
-      صَلُّوْ سُنَّةَ التَّ
+      صَلُّوْ سُنَّةَ التَّرَاوِيْحِ رَكْعَتَيْنِ جَامِعَةَ الرَّحِمَكُمُ اللّٰهُ
     </div>
     <hr/>
     SHOLLUU SUNNATAT TAROOWIIHI RAK ‘ATAINI JAA MI’ATAR ROHIMAKUMULLAH
   </li>
+  <li>
+    <div class="arabic">
+			اَلصَّلَاةُ اَيَّامِ اَثَابَكُمُ اللّٰهُ
+    </div>
+		<hr/>
+    ASSHOLAATU AYYAAMI ATSAABAKUMULLAH
+  </li>
+	<div class="doa">
+	DOA
+	</div>
+	<li>
+		<div class="arabic">
+			فَضْفَمِّنَ اللّٰهُ
+		</div>
+		<hr/>
+    FADHFAMMINALLAH
+	</li>
 </ol>
 <pre style="overflow-x: auto;">
-BILAL TARAWIH
-    2. ASSHOLAATU AYYAAMI ATSAABAKUMULLAH
-DOA
-    3. FADHFAMMINALLAH
     4. ALKHOLIIFATUL UULAA AMIIRUL MUKMINIINA SAYYIDUNAA ABUU BAKAR SIDDIIQ
 DOA
     5. ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD

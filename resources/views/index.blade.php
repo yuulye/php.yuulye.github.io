@@ -27,4 +27,6 @@
   <a href="{{url('/research/tahsin')}}"></a>
   <a href="{{url('/research/wudu')}}"></a>
   <a href="{{url('/research/wudu2')}}"></a>
+  <a href="{{url('/research/tarawih')}}"></a>
+  <a href="{{url('/research/alala')}}"></a>
 @endsection
