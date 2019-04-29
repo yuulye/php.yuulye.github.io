@@ -22,6 +22,7 @@ body {
   line-height: 1.25em;
   font-size: 2em;
   text-align: right;
+	font-weight: 400;
 }
 ol.ar {
 	list-style: none;
@@ -52,121 +53,66 @@ div.green {
 	padding: 16px;
 	font-weight: bold;
 }
+.green .arabic {
+	display: inline-block;
+}
+div.times {
+	display: inline-block;
+}
 
 </style>
 @endsection
 
 @section('content')
-<h1 style="text-align: center;">BILAL TARAWIH</h1>
-<ol class="ar">
-  <li>
-    <div class="arabic">
-      صَلُّوْ سُنَّةَ التَّرَاوِيْحِ رَكْعَتَيْنِ جَامِعَةَ الرَّحِمَكُمُ اللّٰهُ
-    </div>
-    <hr/>
-    SHOLLUU SUNNATAT TAROOWIIHI RAK ‘ATAINI JAA MI’ATAR ROHIMAKUMULLAH
-  </li>
-  <li>
-    <div class="arabic">
-			اَلصَّلَاةُ اَيَّامِ اَثَابَكُمُ اللّٰهُ
-    </div>
-		<hr/>
-    ASSHOLAATU AYYAAMI ATSAABAKUMULLAH
-  </li>
-	<div class="doa">
-	DOA
-	</div>
-	<li>
-		<div class="arabic">
-			فَضْفَمِّنَ اللّٰهُ
-		</div>
-		<hr/>
-    FADHFAMMINALLAH
-	</li>
-  <li>
-    <div class="arabic">
-			اَلْخَلِيْفَتُلْ اُوْلَا اَمِيْرُلْ مُكْمِنِيْنَ سَيِّدُنَا اَبُوْ بَكَرْ سِدِّيْقِ
-    </div>
-    <hr/>
-    ALKHOLIIFATUL UULAA AMIIRUL MUKMINIINA SAYYIDUNAA ABUU BAKAR SIDDIIQ
-  </li>
-	<div class="doa">
-	DOA
-	</div>
-	<li>
-		<div class="arabic">
-			اَللّٰهُمَّ صَلِّ عَلَ سَيِّدِنَا مُحَمَّدُ
-		</div>
-		<hr/>
-    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-	</li>
-	<li>
-		<div class="arabic">
-			اَلْخَلِيْفَةُ السَّانِيَهْ اَمِرُلْ مُكْمِنِيْنَا سَيِّدُنَّا عُمَرْ بِنْ خَطَّابَ
-		</div>
-		<hr/>
-    ALKHOLIIFATUSSAANIYAH AMIIRUL MUKMININAA SAYYIDUNAA ‘UMAR BIN KHOTTOO.BEK
-	</li>
-	<div class="doa">
-	DOA
-	</div>
-	<li>
-		<div class="arabic">
-			اَللّٰهُمَّ صَلِّ علَ سَيِّدِنَا مُحَمَّدُ
-		</div>
-		<hr/>
-    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-		<!--
-			aAll}/HUm}A SAl}I elA sAy}IdInAa mUhAm}AdU
-		--!>
-	</li>
-	<li>
-		<div class="arabic">
-			اَلْخَلِيْفَةُ السَّلِسَهْ اَمِيْرُلْ مُكْمِنِنَا سَيِّدُنَا عُسْمَانْ بِنْ اَفَّنُ
-		</div>
-		<hr/>
-    ALKHOLIIFATUSSALISAH AMIIRUL MUKMININAA SAYYIDUNAA ‘USMAAN BIN AFFAN
-		<!--
-			aAl`h'AlIy`fAoU als}AlIsAH` aAmIy`rUl` mUk`mInInAa sAy}IdUnAa eUs`mAan` bIn` aAf}AnU
-		--!>
-	</li>
-	<div class="doa">
-	DOA
-	</div>
-	<li>
-		<div class="arabic">
-			اَللّٰهُمَّ صَلِّ علَ سَيِّدِنَا مُحَمَّدُ
-		</div>
-		<hr/>
-    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-		<!--
-			aAll}/HUm}A SAl}I elA sAy}IdInAa mUhAm}AdU
-		--!>
-	</li>
-	<li>
-		<div class="arabic">
-			اَلْخَلِيْفَةُ الرَّابِعَهْ اَمِيْرُلْ مُكْمِنِنَا سَيِّدُنَا عَلِ بِنْ اَبِيْ طَالِبُ
-		</div>
-		<hr/>
-		 ALKHOLIIFATURROOBI’AH AMIIRUL MUKMININAA SAYYIDUNAA ‘ALI BIN ABII     THOOLIBEK
-		<!--
-			aAl`h'AlIy`fAoU alr}AabIeAH` aAmIy`rUl` mUk`mInInAa sAy}IdUnAa eAlI bIn` aAbIy` TAalIbU
-		--!>
-	</li>
-</ol>
-
-<br/>
-<br/>
-<br/>
+@include('research.tarawih.1')
 
 <div class="green">
+<div style="text-align: right;">
+<div class="times">
+٣ X ....
+</div>
+&nbsp;&nbsp;&nbsp;
+<div class="arabic">
+اَشْهَدُ اَلَّا اِلٰهَ اِلَّا اللّٰهُ ، اَسْتَغْفِرُ اللّٰهُ
+</div>
+</div>
+<hr/>
 ASYHADU ALLA ILA HA ILLALLAH , ASTAGHFIRULLAH …. 3X
+<!--
+aAC`HAdU aAl}Aa aIl/HA aIl}Aa all}/HU , aAs`tAg`fIrU all}/HU
+--!>
 <br/>
 <br/>
+<br/>
+
+<div style="text-align: right;">
+<div class="times">
+٣ X ....
+</div>
+&nbsp;&nbsp;&nbsp;
+<div class="arabic">
+اَلّٰهُمَّ اِنَّكَ اَفُوُّنْ كَرِمْ ، تُحِبُّلْ عَفْوَ فَاْفُ عَنَّ
+</div>
+</div>
+<hr/>
 ALLAHUMMA INNAKA AFUWWUNG KARIM , TUHIBBUL’AFWA FA’FU ‘ANNA ………. 3X
+<!--
+aAl}/HUm}A aIn}AkA aAfUw}Un` kArIm` , tUhIb}Ul` eAf`wA fAa`fU eAn}A
+--!>
 <br/>
 <br/>
+<br/>
+
+<div style="text-align: right">
+<div class="arabic">
+اَللّٰهُمَّ اِنَّ نَسْاَلُكَ ، رِظَاكَ وَلْ جَنَّتَ ، وَ نَعُوْذُبِكَ ، مِنْ سَخَاطِكَ وَنَّارُ
+</div>
+</div>
+<hr/>
 ALLAHUMMA INNA NAS.ALUKA   ,  RIDHOOKA WAL JANNATA    , WA NA’UUDZUBIKA   ,   MINGG SAKHOOTHIKA WANNAAR
+<!--
+aAll}/HUm}A aIn}A nAs`aAlUkA , rIxAakA wAl` jAn}AtA , wA nAeUw`zUbIkA , mIn` sAh'AaTIkA wAn}AarU
+--!>
 </div>
 
 <ol class="ar">
