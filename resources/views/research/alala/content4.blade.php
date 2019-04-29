@@ -43,3 +43,30 @@ Nadhom 24
 GURU WIS MESTI DIHADIAHI SEWU DIRHAM   #   MULYAKKE KRONO MULANG HURUF SIJI TUR PAHAM
 <br/>
 (sesungguhnya benar sekali memberikan hadiah kepada guru untuk setiap satu huruf yang di ajarkannya seribu dirham)
+
+<h2>
+Nafsu harus dihinakan (Nadhom 25)
+</h2>
+
+<h3>
+Nadhom 25
+</h3>
+<pre class="arabic">اَرَى لَكَ اَنْ تَشْتَهِىَ اَنْ تُعِزَّهَا ۞ فَلَسْتَ تَنَــالُ الْعِزَّ حَتَّى تُذِلَّهــــاَ
+</pre>
+NINGALI INGSUN MARING SIRO KEPINGIN MULYO   #   MONGKO DAK KASIL MULYO SIRO YEN DURUNG INO
+<br/>
+(aku melihat kamu mempunyai nafsu yang ingin kamu muliakan, padahal kamu tidak akan mendapat kemuliaan kecuali dengan menghinakan nafsumu)
+
+<h2>
+Janganlah berburuk sangka (Nadhom 26)
+</h2>
+
+<h3>
+Nadhom 26
+</h3>
+<pre class="arabic">ﺇذَا سَاءَ فِعْلُ الْمَرْءِ سَاءَ ظُنُوْنُهُ ۞ وَصَـــــدَّقَ مَا يَعْتَــــادُهُ مِنْ تَوَهُّمِ
+</pre>
+NALIKO OLO LAKUNE WONG OLO NYANANE   #   LAN BENER NYANANE WONG BENER PENGADATANE
+<br/>
+(Bila perbuatan seseorang buruk, maka akan buruk pula prasangka-prasangkanya, dan akan dibenarkannya kebiasaan - kebiasaan dari kecurigaannya)
+

@@ -1,31 +1,4 @@
 <h2 class="top">
-Jangan mendendam (nadhom  31)
-</h2>
-
-<h3>
-Nadhom 31
-</h3>
-<pre class="arabic">دَعِ الْمَرْءَ لاَتُجْزِ عَلَى سُوْءِ فِعْلِهِ ۞ سَيَكْفِيْهِ مَا فِيْــــهِ وَمَا هُوَ فَاعِلُهُ
-</pre>
-TINGGALO SIRO ING WONG SIJI OLO LAKUNE
-TEGESE OJO MALES OLO KANG DI LAKONI
-<br/>
-Jangan pedulikan orang lain (yang berbuat jahat kepadamu) jangan kau balas perbuatan jahatnya karena dia akan di balas oleh perbuatannya sendiri.
-
-<h2>
-Waktu yang bernilai (Nadhom 32)
-</h2>
-<h3>
-Nadhom 32
-</h3>
-<pre class="arabic">أَلَيْسَتْ مِنَ الْخُسْرَانِ اَنَّ لَيَالِيَا ۞ تَمُرُّ بِلاَ نَفْعٍ وَتُحْسَبُ مِنْ عُمْرِىْ
-</pre>
-ONOTO KABEH DUDU GOLONGANE WONG TUNO
-LIWATE KANTHI NGANGGUR DI ITUNG UMUR KITO
-<br/>
-Bukankah termasuk kerugian bila malam-malam berlalu tanpa aku manfaatkan sedangkan umurku terus berkurang?
-
-<h2>
 Belajarlah ! (Nadhom 33)
 </h2>
 

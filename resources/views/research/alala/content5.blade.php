@@ -1,30 +1,4 @@
 <h2 class="top">
-Nafsu harus dihinakan (Nadhom 25)
-</h2>
-
-<h3>
-Nadhom 25
-</h3>
-<pre class="arabic">اَرَى لَكَ اَنْ تَشْتَهِىَ اَنْ تُعِزَّهَا ۞ فَلَسْتَ تَنَــالُ الْعِزَّ حَتَّى تُذِلَّهــــاَ
-</pre>
-NINGALI INGSUN MARING SIRO KEPINGIN MULYO   #   MONGKO DAK KASIL MULYO SIRO YEN DURUNG INO
-<br/>
-(aku melihat kamu mempunyai nafsu yang ingin kamu muliakan, padahal kamu tidak akan mendapat kemuliaan kecuali dengan menghinakan nafsumu)
-
-<h2>
-Janganlah berburuk sangka (Nadhom 26)
-</h2>
-
-<h3>
-Nadhom 26
-</h3>
-<pre class="arabic">ﺇذَا سَاءَ فِعْلُ الْمَرْءِ سَاءَ ظُنُوْنُهُ ۞ وَصَـــــدَّقَ مَا يَعْتَــــادُهُ مِنْ تَوَهُّمِ
-</pre>
-NALIKO OLO LAKUNE WONG OLO NYANANE   #   LAN BENER NYANANE WONG BENER PENGADATANE
-<br/>
-(Bila perbuatan seseorang buruk, maka akan buruk pula prasangka-prasangkanya, dan akan dibenarkannya kebiasaan - kebiasaan dari kecurigaannya)
-
-<h2>
 Golongan Manusia di sekitar kita (Nadhom 27, 28, 29, 30)
 </h2>
 
@@ -73,3 +47,31 @@ DENE WONG SAK NGISORKU AKU SABAR BIYOSO
 NGAREKSO KAWIRANGAN NAJAN AKU DEN WODO
 <br/>
 Sedangkan orang yang rendah maka saya selalu memberikan kata maaf kepada mereka untuk menjaga kehormatanku walaupun banyak orang yang mencela.
+
+<h2>
+Jangan mendendam (nadhom  31)
+</h2>
+
+<h3>
+Nadhom 31
+</h3>
+<pre class="arabic">دَعِ الْمَرْءَ لاَتُجْزِ عَلَى سُوْءِ فِعْلِهِ ۞ سَيَكْفِيْهِ مَا فِيْــــهِ وَمَا هُوَ فَاعِلُهُ
+</pre>
+TINGGALO SIRO ING WONG SIJI OLO LAKUNE
+TEGESE OJO MALES OLO KANG DI LAKONI
+<br/>
+Jangan pedulikan orang lain (yang berbuat jahat kepadamu) jangan kau balas perbuatan jahatnya karena dia akan di balas oleh perbuatannya sendiri.
+
+<h2>
+Waktu yang bernilai (Nadhom 32)
+</h2>
+<h3>
+Nadhom 32
+</h3>
+<pre class="arabic">أَلَيْسَتْ مِنَ الْخُسْرَانِ اَنَّ لَيَالِيَا ۞ تَمُرُّ بِلاَ نَفْعٍ وَتُحْسَبُ مِنْ عُمْرِىْ
+</pre>
+ONOTO KABEH DUDU GOLONGANE WONG TUNO
+LIWATE KANTHI NGANGGUR DI ITUNG UMUR KITO
+<br/>
+Bukankah termasuk kerugian bila malam-malam berlalu tanpa aku manfaatkan sedangkan umurku terus berkurang?
+
