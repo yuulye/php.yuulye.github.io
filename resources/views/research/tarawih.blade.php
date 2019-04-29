@@ -23,35 +23,42 @@ body {
   font-size: 2em;
   text-align: right;
 }
-ol {
+ol.ar {
 	list-style: none;
 	counter-reset: listNumbering;
 }
-li {
+ol.ar li {
   border-bottom: 1px solid rgba(0, 0, 0, .7);
 	margin-bottom: 16px;
 	counter-increment: listNumbering;
 }
-li:before {
+ol.ar li:before {
 	content: counter(listNumbering, arabic-indic);
 	font-size: 2em;
 	margin-left: -32px;
 	position: relative;
 	top: 40px;
 }
-ol > div.doa {
+ol.ar > div.doa {
 	font-weight: bold;
 	padding: 16px;
-	background: rgba(0, 0, 0, .3);
+	background: rgba(0, 0, 0, .2);
 	margin-left: -36px;
 	text-align: center;
 }
+
+div.green {
+	background: rgba(0, 0, 0, .2);
+	padding: 16px;
+	font-weight: bold;
+}
+
 </style>
 @endsection
 
 @section('content')
 <h1 style="text-align: center;">BILAL TARAWIH</h1>
-<ol>
+<ol class="ar">
   <li>
     <div class="arabic">
       صَلُّوْ سُنَّةَ التَّرَاوِيْحِ رَكْعَتَيْنِ جَامِعَةَ الرَّحِمَكُمُ اللّٰهُ
@@ -76,79 +83,218 @@ ol > div.doa {
 		<hr/>
     FADHFAMMINALLAH
 	</li>
+  <li>
+    <div class="arabic">
+			اَلْخَلِيْفَتُلْ اُوْلَا اَمِيْرُلْ مُكْمِنِيْنَ سَيِّدُنَا اَبُوْ بَكَرْ سِدِّيْقِ
+    </div>
+    <hr/>
+    ALKHOLIIFATUL UULAA AMIIRUL MUKMINIINA SAYYIDUNAA ABUU BAKAR SIDDIIQ
+  </li>
+	<div class="doa">
+	DOA
+	</div>
+	<li>
+		<div class="arabic">
+			اَللّٰهُمَّ صَلِّ عَلَ سَيِّدِنَا مُحَمَّدُ
+		</div>
+		<hr/>
+    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
+	</li>
+	<li>
+		<div class="arabic">
+			اَلْخَلِيْفَةُ السَّانِيَهْ اَمِرُلْ مُكْمِنِيْنَا سَيِّدُنَّا عُمَرْ بِنْ خَطَّابَ
+		</div>
+		<hr/>
+    ALKHOLIIFATUSSAANIYAH AMIIRUL MUKMININAA SAYYIDUNAA ‘UMAR BIN KHOTTOO.BEK
+	</li>
+	<div class="doa">
+	DOA
+	</div>
+	<li>
+		<div class="arabic">
+			اَللّٰهُمَّ صَلِّ علَ سَيِّدِنَا مُحَمَّدُ
+		</div>
+		<hr/>
+    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
+		<!--
+			aAll}/HUm}A SAl}I elA sAy}IdInAa mUhAm}AdU
+		--!>
+	</li>
+	<li>
+		<div class="arabic">
+			اَلْخَلِيْفَةُ السَّلِسَهْ اَمِيْرُلْ مُكْمِنِنَا سَيِّدُنَا عُسْمَانْ بِنْ اَفَّنُ
+		</div>
+		<hr/>
+    ALKHOLIIFATUSSALISAH AMIIRUL MUKMININAA SAYYIDUNAA ‘USMAAN BIN AFFAN
+		<!--
+			aAl`h'AlIy`fAoU als}AlIsAH` aAmIy`rUl` mUk`mInInAa sAy}IdUnAa eUs`mAan` bIn` aAf}AnU
+		--!>
+	</li>
+	<div class="doa">
+	DOA
+	</div>
+	<li>
+		<div class="arabic">
+			اَللّٰهُمَّ صَلِّ علَ سَيِّدِنَا مُحَمَّدُ
+		</div>
+		<hr/>
+    ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
+		<!--
+			aAll}/HUm}A SAl}I elA sAy}IdInAa mUhAm}AdU
+		--!>
+	</li>
+	<li>
+		<div class="arabic">
+			اَلْخَلِيْفَةُ الرَّابِعَهْ اَمِيْرُلْ مُكْمِنِنَا سَيِّدُنَا عَلِ بِنْ اَبِيْ طَالِبُ
+		</div>
+		<hr/>
+		 ALKHOLIIFATURROOBI’AH AMIIRUL MUKMININAA SAYYIDUNAA ‘ALI BIN ABII     THOOLIBEK
+		<!--
+			aAl`h'AlIy`fAoU alr}AabIeAH` aAmIy`rUl` mUk`mInInAa sAy}IdUnAa eAlI bIn` aAbIy` TAalIbU
+		--!>
+	</li>
 </ol>
-<pre style="overflow-x: auto;">
-    4. ALKHOLIIFATUL UULAA AMIIRUL MUKMINIINA SAYYIDUNAA ABUU BAKAR SIDDIIQ
-DOA
-    5. ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-    6. ALKHOLIIFATUSSAANIYAH AMIIRUL MUKMININAA SAYYIDUNAA ‘UMAR BIN KHOTTOO.BEK
-DOA
-    7. ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-    8. ALKHOLIIFATUSSALISAH AMIIRUL MUKMININAA SAYYIDUNAA ‘USMAAN BIN AFFAN
-DOA
-    9. ALLAHUMMA SHOLLI ‘ALA SAYYIDINAA MUHAMMAD
-   10.  ALKHOLIIFATURROOBI’AH AMIIRUL MUKMININAA SAYYIDUNAA
-           ‘ALI BIN ABII     THOOLIBEK
+
+<br/>
+<br/>
+<br/>
+
+<div class="green">
 ASYHADU ALLA ILA HA ILLALLAH , ASTAGHFIRULLAH …. 3X
+<br/>
+<br/>
 ALLAHUMMA INNAKA AFUWWUNG KARIM , TUHIBBUL’AFWA FA’FU ‘ANNA ………. 3X
+<br/>
+<br/>
 ALLAHUMMA INNA NAS.ALUKA   ,  RIDHOOKA WAL JANNATA    , WA NA’UUDZUBIKA   ,   MINGG SAKHOOTHIKA WANNAAR
-    1. SHOLLU SUNNATAMMINAL WIT.RI ROK’ATAINI JAAMI’ATAR ROHIMAKUMULLAH
-    2. SHOLLU SUNNATAR ROK.ATAL WITRI ( MA’AL QUNUUTI ) JAAMI’ATAR ROHIMAKUMULLAH
- BISMILLAHIRROHMANIRROHIM ,
-SUBEK.HAANAL MAALIKIL QUDDUUS ………. 3X
-SUBBUHUN   ,   QUDDUUSUN   ,   ROBBUNAA   ,   WAROBBUL MALAAIKATI WARRUH
-SUBEK.HANALLAHI WAL HAMDULILLAH   ,   WALAA ILAA HA ILLALLAHU WALLAHU AKBAR   ,   WALA HAULA WALA QUWWATA ILLA BILLAHIL ‘ALIYYIL ADZIM ..
+</div>
+
+<ol class="ar">
+	<li>
+		<div class="arabic">
+		</div>
+		<hr/>
+    SHOLLU SUNNATAMMINAL WIT.RI ROK’ATAINI JAAMI’ATAR ROHIMAKUMULLAH
+	</li>
+	<li>
+		<div class="arabic">
+		</div>
+		<hr/>
+    SHOLLU SUNNATAR ROK.ATAL WITRI ( MA’AL QUNUUTI ) JAAMI’ATAR ROHIMAKUMULLAH
+	</li>
+</ol>
+
+<br/>
+<br/>
+<br/>
+
+<div>
 BISMILLAHIRROHMANIRROHIM ,
+<br/>
+<br/>
+SUBEK.HAANAL MAALIKIL QUDDUUS ………. 3X
+<br/>
+<br/>
+SUBBUHUN   ,   QUDDUUSUN   ,   ROBBUNAA   ,   WAROBBUL MALAAIKATI WARRUH
+<br/>
+<br/>
+SUBEK.HANALLAHI WAL HAMDULILLAH   ,   WALAA ILAA HA ILLALLAHU WALLAHU AKBAR   ,   WALA HAULA WALA QUWWATA ILLA BILLAHIL ‘ALIYYIL ADZIM ..
+<br/>
+<br/>
+BISMILLAHIRROHMANIRROHIM ,
+<br/>
+<br/>
 NAWAITU   ,   SHOUMA GHODIN   ,   ‘AN ADAA.I   ,   FARDHI SYAHRI   ,   ROMADHOONA   ,   HAA DZIHISSANATI   ,   IIMANAN   ,   WAHTISAABAN   ,   LILLAHI TA’ALA
+<br/>
+<br/>
 NIAT INGSUN POSO    ,   SEDINO SESOK   ,   SAKING ANEKANI   ,   FERDHUNE WULAN ROMADHON   ,   IKILAH TAHUN   ,   KRONO NDEREK   ,   DAWUHE ALLAH TA’ALA …
+<br/>
+<br/>
+
+<h1 style="text-align: center;">
 SYIIR BA’DA TARAWIH
+</h1>
 
 ALLAHUMMA SHOLLI ‘ALAA MUHAMMAD , YA ROBBI SHOLLI ALAIHI WA SALIM …. 2X
+<br/>
+<br/>
 ASY HADU ALLA ILA HA ILLALLAH ,
+<br/>
+<br/>
  NEKO DAKEN INGSUN ING NDALEM ATI NING SUN , SATUHUNE ORA ONO PANGERAN KANG SINEMBAH , KELAWAN SAK BENERE . KANG WAJIB WUJUDE KANG MOHAL ADAME KANG MESTI ANANE ..  AAAAING  ALLAH ..
+<br/>
+<br/>
 WA ASY HADU ANNA MUHAMMADARROSULULLOH ,
+<br/>
+<br/>
 NEKO DAKEN INGSUN ING NDALEM ATI NING SUN , SATUHUNE KANJENG NABI MUHAMMAD IKU . UTUSANE ALLAH KAWULANE ALLAH KEKASIHE ALLAH , KANG ROMO SAYYID ABDULLAH KANG IBU SITI AMINAH . DZOHIR ANA MEKAH JUMENENG ROSUL ANA MEKAH PINDAH ING MADINAH GERAH ING MADINAH SEDO ING MADINAH SINAREKAKEN ING MADINAH . BANGSANE BANGSA ROSUL BANGSA ARAB BANGSA QUROISY . SIRA ROHMAN SIRA ROHIM , SIRA ING DZAT KANG SAMPURNA , SAMPURNANE KELAWAN IMAN :
+<br/>
+<br/>
 WUJUD , QIDAM , BAQO’ , MUKHOLAFATU LIL HAWADITSI , WAL QIYAMU BINAFSIHI , WAH DA NIYAH , QODRAT , IRODAT , ILMU, HAYAT , IYO SAMA’ , BASOR , KALAM , QODIRON , MURIDAN , ALIMAN , HAYAN , SAMI’AN , BASHIRON , MUTAKALIMAN ……
+<br/>
+<br/>
 ALLAHUMMA SHOLLI ALA MUHAMMAD ….. 2X
+<br/>
+<br/>
 WA ALA ALIHI ….. 2X    , WASOHBIHI WASALLLAM
+<br/>
+<br/>
 ALLAH
+<br/>
+<br/>
 ROBBIJEK ALNA , BALADAN AMINA … 2X
+<br/>
+<br/>
 WAROSULULLAHI…2X
+<br/>
+<br/>
 WASIYATAN TOYYIBATAN HASANAH
+<br/>
+<br/>
+</div>
 
-
-
-
-
-
-
-
+<h1 style="text-align: center;">
 KIRIMAN MALEM JUM’AT
-
-    1. MBAH  SLAMET  SUBUR  SEKALIAN
-
-    2. MBAH  JAHRI  SEKALIAN
-
-    3. MBAH  HAJI  TOHIR  SEKALIAN
-
-    4. MBAH  MASIYEM
-
-    5. ANAK  ABU  JAMAL
-
-    6. MBAH  WAKIDI  SEKALIAN
-
-    7. MBAH  BAZARI  SEKALIAN
-
-    8. MBAH DAHRI  SEKALIAN
-
-    9. MBAH  SAMSURI  SEKALIAN
-
-    10. JAZULI
-
-    11. ISHAQ
-
-    12. ABDULLAH  ROSYAD
-
-    13. AHMAD  DARSO
-</pre>
+</h1>
+<ol>
+	<li>
+    MBAH  SLAMET  SUBUR  SEKALIAN
+	</li>
+	<li>
+    MBAH  JAHRI  SEKALIAN
+	</li>
+	<li>
+    MBAH  HAJI  TOHIR  SEKALIAN
+	</li>
+	<li>
+    MBAH  MASIYEM
+	</li>
+	<li>
+    ANAK  ABU  JAMAL
+	</li>
+	<li>
+    MBAH  WAKIDI  SEKALIAN
+	</li>
+	<li>
+    MBAH  BAZARI  SEKALIAN
+	</li>
+	<li>
+    MBAH DAHRI  SEKALIAN
+	</li>
+	<li>
+    MBAH  SAMSURI  SEKALIAN
+	</li>
+	<li>
+    JAZULI
+	</li>
+	<li>
+    ISHAQ
+	</li>
+	<li>
+    ABDULLAH  ROSYAD
+	</li>
+	<li>
+    AHMAD  DARSO
+	</li>
+</ol>
 @endsection
