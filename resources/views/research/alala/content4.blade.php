@@ -1,29 +1,4 @@
 <h2 class="top">
-Berjuang dan tabah (Nadhom 19)
-</h2>
-
-<h3>
-Nadhom 19
-</h3>
-<pre class="arabic">لِكُلٍّ اِلَى شَأْوِ الْعُلَى حَرَكَاتُ ۞ وَلَكِنْ عَزِيْزٌ فِى الرِّجَالِ ثُبَاتُ</pre>
-KABEH WONG MARING DeRAJAT LUHUR OBAHE ATI   #   TAPINE KIDIK PORO ROJUL IKU NETEPI
-<br/>
-(setiap orang yang mau mendapatkan derajat luhur harus berjuang, tapi sedikit di antara orang tersebut yang tabah)
-
-<h2>
-Adab bermasyarakat (Nadhom 20)
-</h2>
-
-<h3>
-Nadhom 20
-</h3>
-<pre class="arabic">اِذَا كُنْتَ فِىْ قَوْمٍ فَصَاحِبْ خِيَـارَهُمْ ۞ وَلاَ تُصْحَبِ اْلاَرْدَى فَتُرْدَى مَعَ الرَّدِىْ
-</pre>
-NALIKO ONO SIRO IKU WOR-WORAN QOUM  #   MONGKO NGANCANONO SIRO ING BAGUSE QOUM
-<br/>
-( tatkala kamu ada di dalam suatu kaum (bermasyarakat), maka bergaullah dengan orang yang terbaik dari mereka, jangan kamu bergaul orang yang terburuk diantara mereka, karena kamu akan buruk bersama mereka)
-
-<h2>
 Mengagungkan guru (Nadhom 21, 22, 23, dan 24)
 </h2>
 

@@ -1,25 +1,4 @@
-<h3>
-Nadhom 13
-</h3>
-<pre style="padding-right: 20px;" class="arabic">وَلَيْسَ اكْتِسَابُ الْمَالِ دُوْنَ مَشَقَّةٍ ۞ تَحَمَّلُـهَــــــــا فَالْعِـــــــلْمُ كَيْفَ يَكُوْنُ</pre>
-ONOTO GOLEK ARTO ORA KANTI KANGELAN   #   DENE ILMU KOYO OPO HASIL DAK KANGELAN
-<br/>
-(adakah mencari harta yang tanpa kesusahan? demikian halnya dengan ilmu, bagaimana bisa tanpa kesusahan)
-
-<h2>
-Jangan banyak bicara (Nadhom 14)
-</h2>
-
-<h3>
-Nadhom 14
-</h3>
-<pre style="padding-right: 20px;" class="arabic">اِذَا تَــــــمَّ عَقْلُ الْمَرْءِ قَلَّ كَلاَمُهُ ۞ وَاَيْقِنْ بِحُمْقِ الْمَرْءِ اِنْ كَانَ مُكْثِرًا
-</pre>
-NALIKO SEMPURNO AKALE KIDIK GUNEME   #   LAN NYATAKNO KUMPRUNGE WONG YEN AKEH GUNEME
-<br/>
-(bila akal seseorang telah sempurna (cerdas), maka sedikitlah bicaranya, dan yakinlah akan bodohnya orang yang banyak bicara)
-
-<h2>
+<h2 class="top">
 Bahaya lisan (Nadhom 15 dan 16)
 </h2>
 
@@ -63,3 +42,29 @@ Nadhom 18
 WONG BODO MATI HALE MLAKU NING DUWUR BUMI   #   DEN NYONO WONG KANG URIP NANGING PODO WONG MATI
 <br/>
 ( sementara orang bodoh mati meskipun masih berjalan di atas bumi, dia menganggap dirinya hidup padahal dia telah tiada)
+
+<h2>
+Berjuang dan tabah (Nadhom 19)
+</h2>
+
+<h3>
+Nadhom 19
+</h3>
+<pre class="arabic">لِكُلٍّ اِلَى شَأْوِ الْعُلَى حَرَكَاتُ ۞ وَلَكِنْ عَزِيْزٌ فِى الرِّجَالِ ثُبَاتُ</pre>
+KABEH WONG MARING DeRAJAT LUHUR OBAHE ATI   #   TAPINE KIDIK PORO ROJUL IKU NETEPI
+<br/>
+(setiap orang yang mau mendapatkan derajat luhur harus berjuang, tapi sedikit di antara orang tersebut yang tabah)
+
+<h2>
+Adab bermasyarakat (Nadhom 20)
+</h2>
+
+<h3>
+Nadhom 20
+</h3>
+<pre class="arabic">اِذَا كُنْتَ فِىْ قَوْمٍ فَصَاحِبْ خِيَـارَهُمْ ۞ وَلاَ تُصْحَبِ اْلاَرْدَى فَتُرْدَى مَعَ الرَّدِىْ
+</pre>
+NALIKO ONO SIRO IKU WOR-WORAN QOUM  #   MONGKO NGANCANONO SIRO ING BAGUSE QOUM
+<br/>
+( tatkala kamu ada di dalam suatu kaum (bermasyarakat), maka bergaullah dengan orang yang terbaik dari mereka, jangan kamu bergaul orang yang terburuk diantara mereka, karena kamu akan buruk bersama mereka)
+

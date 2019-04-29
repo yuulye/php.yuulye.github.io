@@ -20,10 +20,11 @@
       border-left: 1px solid black;
     }
     h2 {
+      font-size: 1.25em;
       border-bottom: 1px solid black;
       border-top: 1px solid black;
-      margin-top: 10px;
-      margin-bottom: 8px;
+      margin-top: 4px;
+      margin-bottom: 4px;
       padding-top: 4px;
       padding-bottom: 4px;
     }
@@ -35,10 +36,10 @@
       position: absolute;
     }
     hr {
-      margin: 4px;
+      margin: 1px;
     }
     pre {
-      margin: 4px;
+      margin: 0px;
     }
   </style>
 @endsection

@@ -1,16 +1,3 @@
-<h2 class="top">
-Ilmu Fiqih dan keutamaannya (Nadhom 7 dan 8)
-</h2>
-
-<h3>
-Nadhom 7
-</h3>
-<pre class="arabic">تَفَقَّـهْ فَاِنَّ اْلفِقْــــهَ اَفْضَلٌ قَائِـدِ ۞ اِلَى الْبِّرِوَالتَّقْوَى وَاَعْدَلُ قَاصِدِ</pre>
-NGAJIO FIQIH KeRONO NGUNGGULKE LAN NUDUHKE   #   MARING BAGUS LAN WEDI ALLAH LUWIH JEJEKE
-<br/>
-(Belajarlah ilmu Fiqih karena Fiqih adalah paling utamanya penuntun menuju kebaikan dan ketakwaan, dan paling lurusnya sesuatu yang lurus)
-<hr/>
-
 <h3>
 Nadhom 8
 </h3>
@@ -63,3 +50,26 @@ Nadhom 12
 SIRO KEPINGIN DADI ALIM FIQIH KANG WICORO   #   TANPO KANGELAN EDAN IKU WERNO-WERNO
 <br/>
 ( saat kamu ingin menjadi ahli fiqih yang bisa menerapkan hujjah atas setiap permasalahan, dengan tanpa usaha keras, itu namanya gila dan gila itu bermacam-macam)
+<hr/>
+
+<h3>
+Nadhom 13
+</h3>
+<pre style="padding-right: 20px;" class="arabic">وَلَيْسَ اكْتِسَابُ الْمَالِ دُوْنَ مَشَقَّةٍ ۞ تَحَمَّلُـهَــــــــا فَالْعِـــــــلْمُ كَيْفَ يَكُوْنُ</pre>
+ONOTO GOLEK ARTO ORA KANTI KANGELAN   #   DENE ILMU KOYO OPO HASIL DAK KANGELAN
+<br/>
+(adakah mencari harta yang tanpa kesusahan? demikian halnya dengan ilmu, bagaimana bisa tanpa kesusahan)
+
+<h2>
+Jangan banyak bicara (Nadhom 14)
+</h2>
+
+<h3>
+Nadhom 14
+</h3>
+<pre style="padding-right: 20px;" class="arabic">اِذَا تَــــــمَّ عَقْلُ الْمَرْءِ قَلَّ كَلاَمُهُ ۞ وَاَيْقِنْ بِحُمْقِ الْمَرْءِ اِنْ كَانَ مُكْثِرًا
+</pre>
+NALIKO SEMPURNO AKALE KIDIK GUNEME   #   LAN NYATAKNO KUMPRUNGE WONG YEN AKEH GUNEME
+<br/>
+(bila akal seseorang telah sempurna (cerdas), maka sedikitlah bicaranya, dan yakinlah akan bodohnya orang yang banyak bicara)
+

@@ -70,3 +70,15 @@ ONOHO NGALAP FAEDAH SABEN DINO ING TAMBAH  #   SONGKO ILMU LAN NGELANGI SEGAR
 <br/>
 (jadilah kamu orang yang mencari faidah, setiap harinya bertambah ilmu dan berenang di atas lautan faidah)
 
+<h2>
+Ilmu Fiqih dan keutamaannya (Nadhom 7 dan 8)
+</h2>
+
+<h3>
+Nadhom 7
+</h3>
+<pre class="arabic">تَفَقَّـهْ فَاِنَّ اْلفِقْــــهَ اَفْضَلٌ قَائِـدِ ۞ اِلَى الْبِّرِوَالتَّقْوَى وَاَعْدَلُ قَاصِدِ</pre>
+NGAJIO FIQIH KeRONO NGUNGGULKE LAN NUDUHKE   #   MARING BAGUS LAN WEDI ALLAH LUWIH JEJEKE
+<br/>
+(Belajarlah ilmu Fiqih karena Fiqih adalah paling utamanya penuntun menuju kebaikan dan ketakwaan, dan paling lurusnya sesuatu yang lurus)
+
