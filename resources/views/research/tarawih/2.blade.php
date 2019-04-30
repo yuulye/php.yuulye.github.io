@@ -5,13 +5,13 @@
 </div>
 &nbsp;&nbsp;&nbsp;
 <div class="arabic">
-اَشْهَدُ اَلَّا اِلٰهَ اِلَّا اللّٰهُ ، اَسْتَغْفِرُ اللّٰهُ
+اَشْهَدُ اَنْ لَّا اِلٰهَ اِلَّا اللّٰهُ ، اَسْتَغْفِرُ اللّٰهُ
 </div>
 </div>
 <hr/>
 ASYHADU ALLA ILA HA ILLALLAH , ASTAGHFIRULLAH …. 3X
 <!--
-aAC`HAdU aAl}Aa aIl/HA aIl}Aa all}/HU , aAs`tAg`fIrU all}/HU
+aAC`HAdU aAn` l}Aa aIl/HA aIl}Aa all}/HU , aAs`tAg`fIrU all}/HU
 --!>
 <br/>
 <br/>
