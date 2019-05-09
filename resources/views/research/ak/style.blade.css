@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Mirza';
+  src: url(/font/Mirza/Mirza-Regular.ttf);
+}
+@font-face {
+  font-family: 'Amiri';
+  src: url(/font/Amiri/Amiri-Regular.ttf);
+}
+@font-face {
+  font-family: 'QalamMajeed';
+  src: url(/font/qalammajeed.ttf);
+}
+@font-face {
+  font-family: 'MeQuran';
+  src: url(/font/me_quran.ttf);
+  /*src: url(/font/me_quran.otf.birdfont);*/
+}
+
+.arabic {
+  /*font-family: QalamMajeed;*/
+  /*font-family: MeQuran;*/
+  /*font-family: Amiri;*/
+  font-family: Mirza;
+  padding: .375em;
+  line-height: 1.825em;
+  font-size: 32px;
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+}
+table tr td {
+  padding: 8px;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+  overflow: auto;
+}
+#map .letterMap {
+  padding: 4px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 96px;
+}
+#map .letterMap
+, #map .letterMap .en
+, #map .letterMap .arabic
+{
+  display: inline-block;
+}
+#map .letterMap .arabic {
+  float: right;
+}
+
