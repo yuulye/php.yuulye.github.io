@@ -29,4 +29,5 @@
   <a href="{{url('/research/wudu2')}}"></a>
   <a href="{{url('/research/tarawih')}}"></a>
   <a href="{{url('/research/alala')}}"></a>
+  <a href="{{url('/research/arabic_keyboard')}}"></a>
 @endsection
