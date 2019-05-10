@@ -33,7 +33,9 @@ var preMaps = [
   { "key": "y", "value" : "ي"},
 
   { "key": "~", "value" : "ء"},
-
+  { "key": "|", "value" : "أ"},
+  { "key": "/", "value" : "إ"},
+  { "key": "\\", "value" : "ؤ"},
 
   { "key": " ", "value" : " "},
 
@@ -109,6 +111,7 @@ console.info("unusedKeys", unusedKeys);
 // );
 
 
+@if (!@$notKeyboard)
 for (letter in maps) {
   // console.log(
   //   "letter", letter, maps[letter]
@@ -133,6 +136,12 @@ for (letter in maps) {
   map.appendChild(el);
 }
 
+arabicInput.onkeyup = function (e) {
+  // console.log(e);
+  arabicOutput.value = translate(arabicInput.value);
+};
+@endif
+
 function translate(input) {
   var translated = "";
   for (var i=0; i < input.length; i++) {
@@ -143,7 +152,3 @@ function translate(input) {
   }
   return translated;
 }
-arabicInput.onkeyup = function (e) {
-  // console.log(e);
-  arabicOutput.value = translate(arabicInput.value);
-};
