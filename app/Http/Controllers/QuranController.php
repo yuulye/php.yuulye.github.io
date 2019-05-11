@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class QuranController extends Controller
 {
+    function read() {
+        return view('quran.read');
+    }
+
     function index() {
         return view('quran');
     }
