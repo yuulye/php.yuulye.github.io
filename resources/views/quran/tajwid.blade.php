@@ -90,8 +90,14 @@
 @endphp
 
 @section('content')
-<div class="arabic">
+<div dir="rtl" class="arabic">
 تجويد
+<hr/>
+فَاِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَـٰنِ ٱلرَّجِيمِ ﴿١٦:٩٨ سورة النحل﴾
+<br/>
+<a href="http://www.allaah.org/taawwuz/">تَعَوُذ</a>
+--
+أَعُوْذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيْمِ
 </div>
 @include('quran.tajwid.makharij')
 @endsection
