@@ -1,0 +1,11 @@
+#main {
+  border: 1px solid green;
+}
+
+#main table {
+  width: 100%;
+  font-size: 32px;
+}
+#main table tr td {
+  width: 6.25%;
+}

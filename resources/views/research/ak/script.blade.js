@@ -32,6 +32,8 @@ var preMaps = [
   { "key": "w", "value" : "و"},
   { "key": "y", "value" : "ي"},
 
+  { "key": "+", "value" : "ة"},
+
   { "key": "~", "value" : "ء"},
   { "key": "|", "value" : "أ"},
   { "key": "/", "value" : "إ"},

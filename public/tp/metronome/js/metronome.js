@@ -22,6 +22,7 @@ var timerWorker = null;     // The Web Worker used to fire timer messages
 
 // First, let's shim the requestAnimationFrame API, with a setTimeout fallback
 window.requestAnimFrame = (function(){
+    console.log('requestAnimFrame');
     return  window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
     window.mozRequestAnimationFrame ||
@@ -33,6 +34,7 @@ window.requestAnimFrame = (function(){
 })();
 
 function nextNote() {
+    // console.log("nextNote");
     // Advance current note and time by a 16th note...
     var secondsPerBeat = 60.0 / tempo;    // Notice this picks up the CURRENT
                                           // tempo value to calculate beat length.
@@ -45,6 +47,10 @@ function nextNote() {
 }
 
 function scheduleNote( beatNumber, time ) {
+    // console.log("scheduleNote", beatNumber, time);
+    if (beatNumber % 4 === 0) {
+        console.log("red!");
+    }
     // push the note on the queue, even if we're not playing.
     notesInQueue.push( { note: beatNumber, time: time } );
 
@@ -68,6 +74,7 @@ function scheduleNote( beatNumber, time ) {
 }
 
 function scheduler() {
+    // console.log("scheduler");
     // while there are notes that will need to play before the next interval,
     // schedule them and advance the pointer.
     while (nextNoteTime < audioContext.currentTime + scheduleAheadTime ) {
@@ -112,7 +119,9 @@ function draw() {
     var currentNote = last16thNoteDrawn;
     var currentTime = audioContext.currentTime;
 
-    while (notesInQueue.length && notesInQueue[0].time < currentTime) {
+    while (
+        notesInQueue.length && notesInQueue[0].time < currentTime
+    ) {
         currentNote = notesInQueue[0].note;
         notesInQueue.splice(0,1);   // remove note from queue
     }
@@ -139,9 +148,10 @@ function init(){
     container.className = "container";
     canvas = document.createElement( 'canvas' );
     canvasContext = canvas.getContext( '2d' );
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    document.body.appendChild( container );
+    canvas.width = 240;
+    canvas.height = 80;
+    // document.body.appendChild( container );
+    containerHere.appendChild( container );
     container.appendChild(canvas);
     canvasContext.strokeStyle = "#ffffff";
     canvasContext.lineWidth = 2;
@@ -160,7 +170,9 @@ function init(){
 
     requestAnimFrame(draw);    // start the drawing loop.
 
-    timerWorker = new Worker("/tp/metronome/js/metronomeworker.js");
+    timerWorker = new Worker(
+        "/tp/metronome/js/metronomeworker.js"
+    );
 
     timerWorker.onmessage = function(e) {
         if (e.data == "tick") {
