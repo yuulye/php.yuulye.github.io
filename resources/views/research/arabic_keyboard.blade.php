@@ -27,6 +27,8 @@
   </tr>
 </table>
 <textarea>
+
+!aw` Zid` ealay`Hi warat&ili Ll`qur~a!na tar`tiylA! {73:4 swr+ !lmZml}
 fa!iza! qara|`ta Ll`qur`~a!na faLs`taeiz` biLll&aHi mina LlC&ay`Ta_^ni Llr&ajiymi {16:98 swr+ !lnhl}
 bis`mi !ll&^Hi !lroh`m^ni !lr&ohiy`mi {1}
 !al`ham`du lil&^Hi rob&i !l`e^lamiy`na @ {2}

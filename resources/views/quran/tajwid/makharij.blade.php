@@ -1,8 +1,3 @@
-<div class="arabic">
-<br/>
-بِسْمِ اللّٰهِ الرَحْمٰنِ الرَّحِيْمِ
-</div>
-<hr/>
 <div style="padding: 0 4px;">
   <table>
     @foreach ($letters as $line)
