@@ -3,86 +3,212 @@ var alphabetMaps = "`1234567890-=qwertyuiop[]asdfghjkl;'\\zxcvbnm,./"
 console.log("alphabetMaps", alphabetMaps.length);
 
 var preMaps = [
-  { "key": "!", "value" : "ا"},
-  { "key": "b", "value" : "ب"},
-  { "key": "t", "value" : "ت"},
-  { "key": "c", "value" : "ث"},
-  { "key": "j", "value" : "ج"},
-  { "key": "h", "value" : "ح"},
-  { "key": "v", "value" : "خ"},
-  { "key": "d", "value" : "د"},
-  { "key": "z", "value" : "ذ"},
-  { "key": "r", "value" : "ر"},
-  { "key": "Z", "value" : "ز"},
-  { "key": "s", "value" : "س"},
-  { "key": "C", "value" : "ش"},
-  { "key": "S", "value" : "ص"},
-  { "key": "D", "value" : "ض"},
-  { "key": "T", "value" : "ط"},
-  { "key": "x", "value" : "ظ"},
-  { "key": "e", "value" : "ع"},
-  { "key": "g", "value" : "غ"},
-  { "key": "f", "value" : "ف"},
-  { "key": "q", "value" : "ق"},
-  { "key": "k", "value" : "ك"},
-  { "key": "l", "value" : "ل"},
-  { "key": "m", "value" : "م"},
-  { "key": "n", "value" : "ن"},
-  { "key": "H", "value" : "ه"},
-  { "key": "w", "value" : "و"},
-  { "key": "y", "value" : "ي"},
+  { "key": "!", "value" : "ا",
+    "rom": "ā",
+  },
+  { "key": "b", "value" : "ب",
+    "rom": "",
+  },
+  { "key": "t", "value" : "ت",
+    "rom": "",
+  },
+  { "key": "c", "value" : "ث",
+    "rom": "ṯ",
+  },
+  { "key": "j", "value" : "ج",
+    "rom": "",
+  },
+  { "key": "h", "value" : "ح",
+    "rom": "ḥ",
+  },
+  { "key": "v", "value" : "خ",
+    "rom": "ḵ",
+  },
+  { "key": "d", "value" : "د",
+    "rom": "",
+  },
+  { "key": "z", "value" : "ذ",
+    "rom": "ḏ",
+  },
+  { "key": "r", "value" : "ر",
+    "rom": "",
+  },
+  { "key": "Z", "value" : "ز",
+    "rom": "z",
+  },
+  { "key": "s", "value" : "س",
+    "rom": "",
+  },
+  { "key": "C", "value" : "ش",
+    "rom": "š",
+  },
+  { "key": "S", "value" : "ص",
+    "rom": "ṣ",
+  },
+  { "key": "D", "value" : "ض",
+    "rom": "ḍ",
+  },
+  { "key": "T", "value" : "ط",
+    "rom": "ṭ",
+  },
+  { "key": "x", "value" : "ظ",
+    "rom": "ẓ",
+  },
+  { "key": "e", "value" : "ع",
+    "rom": "ʿ",
+  },
+  { "key": "g", "value" : "غ",
+    "rom": "ḡ",
+  },
+  { "key": "f", "value" : "ف",
+    "rom": "",
+  },
+  { "key": "q", "value" : "ق",
+    "rom": "",
+  },
+  { "key": "k", "value" : "ك",
+    "rom": "",
+  },
+  { "key": "l", "value" : "ل",
+    "rom": "",
+  },
+  { "key": "m", "value" : "م",
+    "rom": "",
+  },
+  { "key": "n", "value" : "ن",
+    "rom": "",
+  },
+  { "key": "H", "value" : "ه",
+    "rom": "h",
+  },
+  { "key": "w", "value" : "و",
+    "rom": "ū",
+  },
+  { "key": "y", "value" : "ي",
+    "rom": "ī",
+  },
 
-  { "key": "+", "value" : "ة"},
-  { "key": "L", "value" : "ٱ"},
+  { "key": "+", "value" : "ة",
+    "rom": "",
+  },
+  { "key": "L", "value" : "ٱ",
+    "rom": "",
+  },
 
-  { "key": "_", "value" : "ـ"},
+  { "key": "_", "value" : "ـ",
+    "rom": "",
+  },
 
-  { "key": "~", "value" : "ء"},
-  { "key": "|", "value" : "أ"},
-  { "key": "/", "value" : "إ"},
-  { "key": "\\", "value" : "ؤ"},
+  { "key": "~", "value" : "ء",
+    "rom": "",
+  },
+  { "key": "|", "value" : "أ",
+    "rom": "",
+  },
+  { "key": "/", "value" : "إ",
+    "rom": "",
+  },
+  { "key": "\\", "value" : "ؤ",
+    "rom": "",
+  },
+  { "key": "Y", "value" : "ى",
+    "rom": "",
+  },
 
-  { "key": " ", "value" : " "},
+  { "key": " ", "value" : " ",
+    "rom": "",
+  },
 
-  { "key": "a", "value" : "َ"},
-  { "key": "o", "value" : "َ"},
-  { "key": "i", "value" : "ِ"},
-  { "key": "u", "value" : "ُ"},
+  { "key": "a", "value" : "َ",
+    "rom": "",
+  },
+  { "key": "o", "value" : "َ",
+    "rom": "",
+  },
+  { "key": "i", "value" : "ِ",
+    "rom": "",
+  },
+  { "key": "u", "value" : "ُ",
+    "rom": "",
+  },
 
-  { "key": "A", "value" : "ً"},
-  { "key": "I", "value" : "ٍ"},
-  { "key": "U", "value" : "ٌ"},
+  { "key": "A", "value" : "ً",
+    "rom": "",
+  },
+  { "key": "I", "value" : "ٍ",
+    "rom": "",
+  },
+  { "key": "U", "value" : "ٌ",
+    "rom": "",
+  },
 
-  { "key": "`", "value" : "ْ"},
+  { "key": "`", "value" : "ْ",
+    "rom": "",
+  },
 
-  { "key": "&", "value" : "ّ"},
+  { "key": "&", "value" : "ّ",
+    "rom": "",
+  },
 
-  { "key": "^", "value" : "ٰ"},
+  { "key": "^", "value" : "ٰ",
+    "rom": "",
+  },
 
-  { "key": "\n", "value" : "\n"},
+  { "key": "\n", "value" : "\n",
+    "rom": "",
+  },
 
-  { "key": "{", "value" : "﴿"},
-  { "key": "}", "value" : "﴾"},
+  { "key": "{", "value" : "﴿",
+    "rom": "",
+  },
+  { "key": "}", "value" : "﴾",
+    "rom": "",
+  },
 
-  { "key": "1", "value" : "١"},
-  { "key": "2", "value" : "٢"},
-  { "key": "3", "value" : "٣"},
-  { "key": "4", "value" : "٤"},
-  { "key": "5", "value" : "٥"},
-  { "key": "6", "value" : "٦"},
-  { "key": "7", "value" : "٧"},
-  { "key": "8", "value" : "٨"},
-  { "key": "9", "value" : "٩"},
-  { "key": "0", "value" : "٠"},
+  { "key": "1", "value" : "١",
+    "rom": "",
+  },
+  { "key": "2", "value" : "٢",
+    "rom": "",
+  },
+  { "key": "3", "value" : "٣",
+    "rom": "",
+  },
+  { "key": "4", "value" : "٤",
+    "rom": "",
+  },
+  { "key": "5", "value" : "٥",
+    "rom": "",
+  },
+  { "key": "6", "value" : "٦",
+    "rom": "",
+  },
+  { "key": "7", "value" : "٧",
+    "rom": "",
+  },
+  { "key": "8", "value" : "٨",
+    "rom": "",
+  },
+  { "key": "9", "value" : "٩",
+    "rom": "",
+  },
+  { "key": "0", "value" : "٠",
+    "rom": "",
+  },
 
-  { "key": "@", "value" : "ۙ"},
+  { "key": "@", "value" : "ۙ",
+    "rom": "",
+  },
 ];
 
 var mapsCount = maps = {};
+var romanMaps = {};
+
 for (var i = 0; i < preMaps.length; i++) {
   var preMap = preMaps[i];
   var key = preMap.key;
   var value = preMap.value;
+  var roman = preMap.rom;
   // console.log(preMap, key, value, mapsCount);
 
   if (mapsCount[key]) {
@@ -97,6 +223,7 @@ for (var i = 0; i < preMaps.length; i++) {
 
   if (maps[key]) {
     maps[key] = value;
+    romanMaps[key] = roman==""?key:roman;
   }
 }
 
@@ -110,10 +237,11 @@ for (var i = 0; i < alphabetMaps.length; i++) {
 }
 console.info("unusedKeys", unusedKeys);
 
-// console.log(
-//   "mapsCount", mapsCount
-//   , "maps", maps
-// );
+console.log(
+  "mapsCount", mapsCount
+  , "maps", maps
+  , "romanMaps", romanMaps
+);
 
 
 @if (!@$notKeyboard)
@@ -143,17 +271,37 @@ for (letter in maps) {
 
 arabicInput.onkeyup = function (e) {
   // console.log(e);
-  arabicOutput.value = translate(arabicInput.value);
+  var translated = translate(arabicInput.value);
+  arabicOutput.value = translated.ar;
+  romOutput.value = translated.rom;
 };
 @endif
 
 function translate(input) {
   var translated = "";
+  var before = "";
+  var translatedRom = "";
   for (var i=0; i < input.length; i++) {
     var key = input[i];
     var char = maps[key]?maps[key]:key;
+    var roman = romanMaps[key]?romanMaps[key]:key;
     translated += char;
+
+    if (
+      (before == "a" && roman == "ā")
+      || (before == "u" && roman == "ū")
+      || (before == "i" && roman == "ī")
+    ) {
+      translatedRom =
+        translatedRom.slice(0, translatedRom.length-1);
+    }
+    translatedRom += roman;
+
+    before = key;
     // console.log(key, translated);
   }
-  return translated;
+  return {
+    ar: translated,
+    rom: translatedRom,
+  };
 }

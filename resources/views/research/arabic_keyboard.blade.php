@@ -15,7 +15,7 @@
         id="arabicInput"
         autofocus></textarea>
     </td>
-    <td rowspan="2">
+    <td>
       <textarea
         dir="rtl"
         class="arabic output"
@@ -24,10 +24,41 @@
   </tr>
   <tr>
     <td style="height: 50%;"><div id="map"></div></td>
+    <td>
+      <textarea
+        id="romOutput"
+        ></textarea>
+    </td>
   </tr>
 </table>
 <textarea>
 
+!lHmZ+
+!lH!~
+
+!leyn
+!lh!~
+
+!lgyn
+!lv!~
+
+|qSY
+wsT
+|dnY
+
+!lmdy+
+
+!l|lf
+!lw!w
+!ly!~
+
+!lvayCuwm
+!lC&afata!n
+!llisa!n
+!lhalq
+!ljawf
+
+mava!rij !lhuruwf
 !aw` Zid` ealay`Hi warat&ili Ll`qur~a!na tar`tiylA! {73:4 swr+ !lmZml}
 fa!iza! qara|`ta Ll`qur`~a!na faLs`taeiz` biLll&aHi mina LlC&ay`Ta_^ni Llr&ajiymi {16:98 swr+ !lnhl}
 bis`mi !ll&^Hi !lroh`m^ni !lr&ohiy`mi {1}

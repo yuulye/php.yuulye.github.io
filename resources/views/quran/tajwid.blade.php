@@ -100,8 +100,9 @@
 <a href="http://www.allaah.org/taawwuz/">تَعَوُذ</a>
 <hr/>
 اَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرءَانَ تَرْتِيلًا ﴿٧٣:٤ سورة المزمل﴾
---
+<h1>
 تجويد
+</h1>
 <hr/>
 </div>
 @include('quran.tajwid.makharij')
