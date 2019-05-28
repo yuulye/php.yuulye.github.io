@@ -32,4 +32,5 @@
   <a href="{{url('/research/tarawih')}}"></a>
   <a href="{{url('/research/alala')}}"></a>
   <a href="{{url('/research/arabic_keyboard')}}"></a>
+  <a href="{{url('/research/car')}}"></a>
 @endsection
