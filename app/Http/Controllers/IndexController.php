@@ -42,6 +42,13 @@ class IndexController extends Controller
     }
 
     function index() {
+        $rStorage = Storage::disk('r');
+        $rFiles = $rStorage->files();
+        foreach ($rFiles as $file) {
+            $rs[] = "/r/" . preg_replace('/.blade.php/', '', $file);
+        }
+        //dd($rs, $rStorage->files(), $rStorage->allFiles());
+
         $storage = Storage::disk('post');
         $items = $posts = [];
         $years = $storage->directories();
@@ -68,6 +75,9 @@ class IndexController extends Controller
             $posts[] = $post;
         }
         $posts = collect($posts)->sortByDesc('path');
-        return view('index', ['posts' => $posts]);
+        return view('index', [
+            'posts' => $posts,
+            'rs' => $rs,
+        ]);
     }
 }

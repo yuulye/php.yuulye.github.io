@@ -31,3 +31,7 @@ Route::get(
     '/research/{slug}'
     , 'ResearchController@index'
 );
+Route::get(
+    '/r/{slug}'
+    , 'RController@index'
+);

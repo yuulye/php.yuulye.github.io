@@ -43,6 +43,11 @@ return [
 
     'disks' => [
 
+        'r' => [
+            'driver' => 'local',
+            'root' => resource_path('views/r'),
+        ],
+
         'post' => [
             'driver' => 'local',
             'root' => resource_path('views/post'),
