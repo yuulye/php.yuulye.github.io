@@ -13,6 +13,8 @@
 <a href="{{url('/research/car')}}"></a>
 <a href="{{url('/research/house')}}"></a>
 
+<a href="{{url('/private')}}"></a>
+
 @foreach ($rs as $r)
   <a href="{{ $r }}"></a>
 @endforeach

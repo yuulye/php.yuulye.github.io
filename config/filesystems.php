@@ -53,6 +53,11 @@ return [
             'root' => resource_path('views/r'),
         ],
 
+        'private' => [
+            'driver' => 'local',
+            'root' => resource_path('views/private/posts'),
+        ],
+
         'post' => [
             'driver' => 'local',
             'root' => resource_path('views/post'),

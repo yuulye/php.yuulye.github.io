@@ -23,6 +23,8 @@ Route::get(
 );
 Route::get('/game/{slug}/{version?}', 'GameController@index');
 
+Route::get('/private', 'IndexController@private');
+
 Route::get(
     '/song/{slug}'
     , 'SongController@index'

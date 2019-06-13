@@ -42,15 +42,8 @@ class IndexController extends Controller
         ]);
     }
 
-    function index() {
-        $rStorage = Storage::disk('r');
-        $rFiles = $rStorage->files();
-        foreach ($rFiles as $file) {
-            $rs[] = "/r/" . preg_replace('/.blade.php/', '', $file);
-        }
-        //dd($rs, $rStorage->files(), $rStorage->allFiles());
-
-        $storage = Storage::disk('post');
+    function posts($disk) {
+        $storage = Storage::disk($disk);
         $items = $posts = [];
         $years = $storage->directories();
         foreach ($years as $year) {
@@ -75,9 +68,24 @@ class IndexController extends Controller
             $post = new Post($item);
             $posts[] = $post;
         }
-        $posts = collect($posts)->sortByDesc('path');
+        return collect($posts)->sortByDesc('path');
+    }
+
+    function private() {
+        return view('private.index', [
+            'posts' => $this->posts('private'),
+        ]);
+    }
+
+    function index() {
+        $rStorage = Storage::disk('r');
+        $rFiles = $rStorage->files();
+        foreach ($rFiles as $file) {
+            $rs[] = "/r/" . preg_replace('/.blade.php/', '', $file);
+        }
+
         return view('index', [
-            'posts' => $posts,
+            'posts' => $this->posts('post'),
             'rs' => $rs,
         ]);
     }
