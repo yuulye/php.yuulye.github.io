@@ -2,6 +2,9 @@
 
 @section('head')
 <style>
+  img {
+    max-width: 100%;
+  }
   div.nav {
     position: fixed;
     bottom: 0;
