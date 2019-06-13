@@ -2,6 +2,12 @@
 
 {{-- ~ --}}
 
+@section ('head')
+  <style>@include ('index.style')</style>
+@endsection
+
+{{-- ~ --}}
+
 @section ('content')
   <div class="posts">
     @foreach ($posts as $post)
@@ -15,6 +21,8 @@
     <br/>
     <br/>
   </div>
+
+  <hr/>
 
   @include ('index.footer')
 @endsection

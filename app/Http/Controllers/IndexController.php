@@ -7,14 +7,15 @@ use Storage;
 use Carbon\Carbon;
 
 class Post {
-    static function get($path) {
-        return new self($path);
+    static function get($disk, $path) {
+        return new self($disk, $path);
     }
 
-    function __construct($path) {
+    function __construct($disk, $path) {
 
-        $storage = Storage::disk('post');
-        $this->path = $path;
+        $storage = Storage::disk($disk);
+        $this->path =
+            $path . ($disk=='private'?'/private':'');
         $dates = explode("/", $path);
         $this->date = Carbon::createFromDate(
             $dates[0], $dates[1], $dates[2]
@@ -34,10 +35,17 @@ class Post {
 
 class IndexController extends Controller
 {
-    function post($year, $month, $day, $slug) {
+    function post(
+        $year, $month, $day, $slug, $isPrivate = false
+    ) {
         $params = [$year, $month, $day, $slug];
-        $post = Post::get(implode("/", $params));
-        return view('post.'.implode(".", $params), [
+        $post = Post::get(
+            $isPrivate?'private':'post'
+            ,implode("/", $params)
+        );
+        $preDir = $isPrivate?'private.posts.':'post.';
+        $view = $preDir . implode(".", $params);
+        return view($view, [
             'post' => $post,
         ]);
     }
@@ -53,6 +61,12 @@ class IndexController extends Controller
                     foreach ($days as $day) {
                         $paths = $storage->files($day);
                             foreach ($paths as $path) {
+                                if (
+                                    pathinfo($path)
+                                    ['extension']
+                                    ==
+                                    'swp'
+                                ) continue;
                                 $items[] = $path;
                             }
                     }
@@ -65,7 +79,7 @@ class IndexController extends Controller
         }
         $items = array_unique($items);
         foreach ($items as $item) {
-            $post = new Post($item);
+            $post = new Post($disk, $item);
             $posts[] = $post;
         }
         return collect($posts)->sortByDesc('path');

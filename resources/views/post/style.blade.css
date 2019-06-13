@@ -1,0 +1,39 @@
+.header, .content, .comments {
+  padding: 0px 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.quote {
+  font-weight: 200;
+}
+.quote:before {
+  display: block;
+  height: 0;
+  content: "“";
+  margin-left: -.95em;
+  font: italic 400%/1 "Times New Roman", serif;
+  color: #999;
+}
+pre {
+  overflow: auto;
+}
+
+@media (min-width: 576px)   {
+  body {
+    font-size: 16px;
+  }
+  .header, .content, .comments {
+    width: 512px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px)   {}
+@media (min-width: 992px)   {}
+@media (min-width: 1200px)  {}

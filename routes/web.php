@@ -18,7 +18,7 @@ Route::get('/cv', 'CVController@index');
 
 Route::get('/', 'IndexController@index');
 Route::get(
-    '/post/{year}/{month}/{day}/{slug}'
+    '/post/{year}/{month}/{day}/{slug}/{private?}'
     , 'IndexController@post'
 );
 Route::get('/game/{slug}/{version?}', 'GameController@index');
