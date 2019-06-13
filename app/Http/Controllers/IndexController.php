@@ -12,6 +12,7 @@ class Post {
     }
 
     function __construct($path) {
+
         $storage = Storage::disk('post');
         $this->path = $path;
         $dates = explode("/", $path);

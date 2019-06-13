@@ -43,6 +43,11 @@ return [
 
     'disks' => [
 
+        'httrack' => [
+            'driver' => 'local',
+            'root' => base_path('httrack'),
+        ],
+
         'r' => [
             'driver' => 'local',
             'root' => resource_path('views/r'),

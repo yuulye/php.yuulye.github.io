@@ -54,3 +54,4 @@
 <div class="page landscape last">
   @include('research.alala.3')
 </div>
+@endsection

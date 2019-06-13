@@ -1,4 +1,4 @@
-@extends('print')
+@extends('base')
 
 @section('head')
   @parent
