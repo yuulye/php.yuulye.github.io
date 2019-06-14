@@ -1,5 +1,7 @@
 @extends('base')
 
+@section ('title', $post->data->title)
+
 @section ('head')
 <style>@include ('post.style')</style>
 @endsection

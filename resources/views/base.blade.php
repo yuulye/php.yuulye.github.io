@@ -2,7 +2,13 @@
 <html>
   <head>
     <link rel="icon" href="{{asset('/img/logo.png')}}">
-    <title>{{ config('app.name') }}</title>
+    <title>
+      @hasSection ('title')
+        {{ config('app.name') }} - @yield('title')
+      @else
+        {{ config('app.name') }}
+      @endif
+    </title>
     <meta
       name="viewport"
       content="width=device-width,initial-scale=1.0">
