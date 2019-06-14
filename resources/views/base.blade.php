@@ -24,7 +24,8 @@
     @yield('head')
   </head>
   <body>
-    @yield('content')
-    @yield('body')
+    @yield ('content')
+    @yield ('body')
+    @include ('google_analytics')
   </body>
 </html>
