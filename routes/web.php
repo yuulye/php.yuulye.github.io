@@ -10,6 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/codes', 'CodeController@index');
+Route::get(
+    '/codes/{ext}/{name}'
+    , 'CodeController@code'
+);
+
 Route::get('/quran/read', 'QuranController@read');
 Route::get('/quran/tajwid', 'QuranController@tajwid');
 Route::get('/quran', 'QuranController@index');

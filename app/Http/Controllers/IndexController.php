@@ -92,15 +92,28 @@ class IndexController extends Controller
     }
 
     function index() {
+        $codeName   = 'string22';
+        $codeExt    = 'php';
+
+        $quote      = 1;
+
         $rStorage = Storage::disk('r');
         $rFiles = $rStorage->files();
         foreach ($rFiles as $file) {
             $rs[] = "/r/" . preg_replace('/.blade.php/', '', $file);
         }
 
+        $codeStorage = Storage::disk('codes');
+        $filename = "$codeName.$codeExt";
+        $code = new \stdclass;
+        $code->content = $codeStorage->get($filename);
+        $code->link = "/codes/$codeExt/$codeName";
+
         return view('index', [
             'posts' => $this->posts('post'),
             'rs' => $rs,
+            'code' => $code,
+            'quote' => $quote,
         ]);
     }
 }

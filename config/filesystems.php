@@ -43,6 +43,11 @@ return [
 
     'disks' => [
 
+        'codes' => [
+            'driver' => 'local',
+            'root' => storage_path('codes'),
+        ],
+
         'httrack' => [
             'driver' => 'local',
             'root' => base_path('httrack'),
