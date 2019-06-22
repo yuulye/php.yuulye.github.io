@@ -25,6 +25,7 @@
   </head>
   <body>
     @yield ('content')
+    <script src="/tp/jquery-3.4.1.js"></script>
     @yield ('body')
     @include ('google_analytics')
   </body>

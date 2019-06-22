@@ -41,10 +41,12 @@
 <div align="center" class="footer">
   <br/>
   <br/>
+    <a href="/">
     &copy;{{
       config('app.name')
       . " 2017 - " . date('Y')
     }}
+    </a>
   <br/>
   <br/>
   <br/>

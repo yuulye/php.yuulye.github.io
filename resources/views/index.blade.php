@@ -29,6 +29,7 @@
   <hr/>
 
   <div class="posts">
+    @include ('index.post.php')
     @include ('index.post.tictactoe_ai')
     @foreach ($posts as $post)
       @include ('index.post')
