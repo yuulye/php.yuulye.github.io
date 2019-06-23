@@ -1,0 +1,4 @@
+false
+NaN 'number' NaN 'number' false
+0 'number' 0 'number' true
+Infinity 'number' Infinity 'number' true
