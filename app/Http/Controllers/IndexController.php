@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
+define('CODE_NAME'  , 'x_y_NaN');
+define('CODE_EXT'   , 'js');
+
+define('QUOTE'      , 'js_NaN');
+
 use Illuminate\Http\Request;
 use Storage;
 use Carbon\Carbon;
 use KzykHys\Pygments\Pygments;
 use Pygmentize\Pygmentize;
-
-define('CODE_NAME'  , 'this_a_b');
-define('CODE_EXT'   , 'js');
-
-define('QUOTE'      , 'html');
 
 class Post {
     static function get($disk, $path) {
