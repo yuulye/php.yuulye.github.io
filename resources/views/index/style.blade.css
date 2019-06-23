@@ -1,6 +1,22 @@
-.quote, .code, .item, .comments {
+
+.codeWrapper, .item, .comments {
   padding: 0px 16px;
 }
+
+.codeWrapper {
+  padding-bottom: 32px;
+}
+.codeWrapper pre {
+  margin: 0;
+}
+.codeWrapper .editor {
+  border: 1px solid grey;
+  height: 128px;
+  overflow: auto;
+  background: #333;
+}
+
+@include ('index.style.pygments.dark')
 
 .posts .header {
   white-space: nowrap;
@@ -12,11 +28,18 @@
   body {
     font-size: 16px;
   }
-  .quote, .code, .item, .comments {
+  .codeWrapper, .item, .comments {
     width: 512px;
     margin: 0 auto;
   }
 }
+
 @media (min-width: 768px)   {}
 @media (min-width: 992px)   {}
 @media (min-width: 1200px)  {}
+
+@media (max-width: 767px)   {
+  blockquote {
+    margin: 0px 8px;
+  }
+}

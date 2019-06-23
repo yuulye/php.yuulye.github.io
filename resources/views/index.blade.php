@@ -7,23 +7,26 @@
 @section ('content')
   <br/>
 
-  <div class="quote" align="center">
+  <div class="quote" align="right">
     @include ('quotes.'.$quote)
     <br/>
   </div>
 
   <hr/>
 
-  <div class="code" border="1">
-    <br/>
-    <b>A Piece of Code</b>
-    &middot;
-    <a href="{{ url($code->link) }}">output</a>
-    <table border="1" width="100%">
-      <tr>
-        <td><pre border="1">{{ $code->content }}</pre></td>
-      </tr>
-    </table>
+  <br/>
+
+  <div class="codeWrapper">
+    <div class="header">
+      <b>A Piece of Code</b>
+      &middot;
+      <a href="{{ url($code->link) }}">
+        output
+      </a>
+    </div>
+    <div class="editor">
+      {!! $code->content !!}
+    </div>
   </div>
 
   <hr/>

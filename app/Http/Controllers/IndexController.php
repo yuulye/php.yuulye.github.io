@@ -5,6 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Storage;
 use Carbon\Carbon;
+use KzykHys\Pygments\Pygments;
+use Pygmentize\Pygmentize;
+
+define('CODE_NAME'  , 'this_a_b');
+define('CODE_EXT'   , 'js');
+
+define('QUOTE'      , 'html');
 
 class Post {
     static function get($disk, $path) {
@@ -92,10 +99,12 @@ class IndexController extends Controller
     }
 
     function index() {
-        $codeName   = 'string22';
-        $codeExt    = 'php';
+        $codeName   = CODE_NAME;
+        $codeExt    = CODE_EXT;
 
-        $quote      = 1;
+        $quote      = QUOTE;
+
+        //--------------------------------
 
         $rStorage = Storage::disk('r');
         $rFiles = $rStorage->files();
@@ -103,10 +112,26 @@ class IndexController extends Controller
             $rs[] = "/r/" . preg_replace('/.blade.php/', '', $file);
         }
 
+        $languages = [
+            'php' => 'php',
+            'js'  => 'javascript',
+        ];
         $codeStorage = Storage::disk('codes');
         $filename = "$codeName.$codeExt";
         $code = new \stdclass;
-        $code->content = $codeStorage->get($filename);
+
+        $file = $codeStorage->get($filename);
+        $code->content = Pygmentize::highlight(
+            $file
+            , $languages[$codeExt]
+            , 'utf-8'
+            , 'html'
+            , 'colorful'
+            /*
+                ',linenos=1'
+                ',noclasses'
+            */
+        );
         $code->link = "/codes/$codeExt/$codeName";
 
         return view('index', [

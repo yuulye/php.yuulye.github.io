@@ -1,4 +1,4 @@
-// SoloLearn.com - JavaScript Challenge
+// SoloLearn.com - JavaScript Challenge SoloLearn.com - JavaScript Challenge
 // by Stalevar
 
 function A() {
