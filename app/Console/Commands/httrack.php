@@ -60,6 +60,23 @@ class httrack extends Command
         $url = $this->argument('url');
         $this->info('starting on ' . $url);
 
+        exec("pwd", $output);
+        chdir("httrack");
+        exec("pwd", $output);
+
+        exec("rm -rf hts-cache", $output);
+        exec("rm backblue.gif", $output);
+        exec("rm cookies.txt", $output);
+        exec("rm fade.gif", $output);
+        exec("rm hts-log.txt", $output);
+        exec("rm index.html", $output);
+        exec("ls", $output);
+
+        exec("httrack $url", $output);
+        chdir("..");
+        exec("pwd", $output);
+        dump($output);
+
         $storage = Storage::disk('httrack');
         $paths = $storage->allFiles();
         foreach ($paths as $path) {
