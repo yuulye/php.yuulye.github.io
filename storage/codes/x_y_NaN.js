@@ -1,8 +1,5 @@
-/*
- * SoloLearn.com
- * JavaScript Challenge
- * by brains
- */
+/* SoloLearn.com - JavaScript Challenge
+ * by brains */
 
 var x = NaN;
 var y = x;
@@ -21,5 +18,3 @@ console.log(a, typeof a, b, typeof b, a === b);
 a = Infinity;
 b = a;
 console.log(a, typeof a, b, typeof b, a === b);
-
-

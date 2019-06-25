@@ -1,12 +1,15 @@
-
-.codeWrapper, .item, .comments {
-  padding: 0px 16px;
+.header, .quote, .codeWrapper
+, .item, .comments, .social
+, .footer, .message
+{
+  padding: 0px 4px;
 }
 
-.codeWrapper {
-  padding-bottom: 32px;
+.codeWrapper .header {
+  padding: 0;
 }
 .codeWrapper pre {
+  font-size: 10px;
   margin: 0;
 }
 .codeWrapper .editor {
@@ -22,15 +25,22 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding: 0;
 }
 
 @media (min-width: 576px)   {
   body {
-    font-size: 16px;
+    font-size: 14px;
   }
-  .codeWrapper, .item, .comments {
+  .header, .quote, .codeWrapper
+  , .item, .comments, .social
+  , .footer, .message
+  {
     width: 512px;
     margin: 0 auto;
+  }
+  .codeWrapper pre {
+    font-size: 12px;
   }
 }
 

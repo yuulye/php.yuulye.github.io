@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="icon" href="{{asset('/img/logo.png')}}">
     <title>
@@ -9,6 +9,7 @@
         {{ config('app.name') }}
       @endif
     </title>
+    <meta charset="utf-8"/>
     <meta
       name="viewport"
       content="width=device-width,initial-scale=1.0">
@@ -19,6 +20,11 @@
         font-family: monospace;
         margin: 0;
         padding: 0;
+      }
+      @media (min-width: 576px)   {
+        body {
+          font-size: 16px;
+        }
       }
     </style>
     @yield('head')

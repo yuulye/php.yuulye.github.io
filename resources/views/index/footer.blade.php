@@ -22,32 +22,19 @@
     ],
   ];
 @endphp
-<div class="social" align="center">
-  <br/>
+<div class="social" id="social">
   @foreach ($socials as $s)
     <a href="{{ $s[1] }}">{{ $s[0] }}</a>
     @if (!$loop->last)
-      <br/>
       &middot;
-      <br/>
     @endif
   @endforeach
-  <br/>
-  <br/>
 </div>
 
 <hr/>
 
-<div align="center" class="footer">
-  <br/>
-  <br/>
-    <a href="/">
-    &copy;{{
-      config('app.name')
-      . " 2017 - " . date('Y')
-    }}
-    </a>
-  <br/>
-  <br/>
-  <br/>
+<div class="footer">
+  &copy;<a href="/">{{
+      config('app.name') }}</a>
+  {{" 2017 - " . date('Y')}}
 </div>
