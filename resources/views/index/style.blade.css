@@ -1,6 +1,6 @@
-.header, .quote, .codeWrapper
-, .item, .comments, .social
-, .footer, .message
+.header, .codeWrapper
+, .item, .comments, .links
+, .footer
 {
   padding: 0px 4px;
 }
@@ -33,8 +33,8 @@
     font-size: 14px;
   }
   .header, .quote, .codeWrapper
-  , .item, .comments, .social
-  , .footer, .message
+  , .item, .comments, .links
+  , .footer
   {
     width: 512px;
     margin: 0 auto;
