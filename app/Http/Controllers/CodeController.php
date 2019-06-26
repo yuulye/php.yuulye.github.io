@@ -20,7 +20,7 @@ class CodeController extends Controller
         $s = Storage::disk('codes');
         $filename = $name.'.'.$ext;
         $f = $s->get($filename);
-        $o = $s->get($filename.'.out');
+        $o = $s->exists($filename.'.out')?$s->get($filename.'.out'):'';
         return view('codes.code', [
             'file' => $f,
             'out'  => $o,
