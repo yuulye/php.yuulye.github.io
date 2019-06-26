@@ -44,7 +44,7 @@ class httrack extends Command
             }
         }
 
-        dump($path, $output);
+        //dump($path, $output);
         file_put_contents($path, $lines);
         return $output;
     }
