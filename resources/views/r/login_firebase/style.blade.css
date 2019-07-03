@@ -1,0 +1,23 @@
+#loader {
+	text-align: center;
+}
+#firebaseLoginFormWrapper {
+	display: none;
+  text-align: center;
+}
+#firebaseLoginForm {
+  display: inline-block;
+  text-align: left;
+}
+
+#firebaseLoginForm input[type="text"]
+, #firebaseLoginForm input[type="email"]
+, #firebaseLoginForm input[type="password"]
+{
+  width: 100%;
+  -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}

@@ -1,3 +1,8 @@
+function signOut() {
+  if (firebase.auth().currentUser) {
+    firebase.auth().signOut();
+  }
+}
 function toggleSignIn() {
   if (firebase.auth().currentUser) {
     firebase.auth().signOut();
@@ -25,12 +30,8 @@ function toggleSignIn() {
         alert(errorMessage);
       }
       console.log(error);
-      document.getElementById('quickstart-sign-in')
-        .disabled = false;
     });
   }
-  document.getElementById('quickstart-sign-in')
-    .disabled = true;
 }
 
 function handleSignUp() {
@@ -61,7 +62,8 @@ function handleSignUp() {
 }
 
 function sendEmailVerification() {
-  firebase.auth().currentUser.sendEmailVerification().then(function() {
+  firebase.auth().currentUser
+  .sendEmailVerification().then(function() {
     alert('Email Verification Sent!');
   });
 }

@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/f', 'FirebaseController@index');
+
 Route::get('/codes', 'CodeController@index');
 Route::get(
     '/codes/{ext}/{name}'
