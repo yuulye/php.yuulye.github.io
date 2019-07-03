@@ -30,7 +30,6 @@ window.onload = () => {
         firebase.auth().signOut();
       } else {
         signIn();
-        ui.start('#firebaseui-auth-container', uiConfig);
       }
   };
 };
