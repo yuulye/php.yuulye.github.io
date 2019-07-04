@@ -33,11 +33,20 @@
 </div>
 
 <div style="display: none;" id="signedInUserWrapper">
-	<span id="signedInUser"></span>
+  <input
+    disabled type="text" id="signedInUser"
+  />
 	<button
 		style="display: none;"
 		id="firebaseButtonEmailVerification"
 	>Email Verification</button>
+	<button
+		id="firebaseButtonChangeDisplayName"
+	>Change Display Name</button>
+	<button
+    style="display: none;"
+		id="firebaseButtonSubmitDisplayName"
+	>Submit</button>
 	<button
 		id="firebaseButtonSignOut"
 	>Sign Out</button>

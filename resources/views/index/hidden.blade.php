@@ -1,3 +1,5 @@
+<a href="{{url('/f')}}"></a>
+
 <a href="{{url('/song/unintended')}}"></a>
 <a href="{{url('/cv')}}"></a>
 <a href="{{url('/quran')}}"></a>

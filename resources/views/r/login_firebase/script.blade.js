@@ -3,7 +3,11 @@
 function initApp() {
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
-      signedInUser.innerHTML = user.email;
+      if (user.displayName) {
+        signedInUser.value = user.displayName;
+      } else {
+        signedInUser.value = user.email;
+      }
       if (!user.emailVerified) {
         firebaseButtonEmailVerification
           .style.display = "inline";
@@ -16,6 +20,35 @@ function initApp() {
     }
     loader.style.display = "none";
   });
+
+  /* events */
+
+  firebaseButtonSubmitDisplayName.onclick = e => {
+    if (signedInUser.value.length < 6) {
+      alert('Display name is too short!');
+      return;
+    }
+
+    var user = firebase.auth().currentUser;
+    user.updateProfile({
+      displayName: signedInUser.value
+    }).then( () => {
+      e.target.style.display = 'none';
+      firebaseButtonChangeDisplayName
+        .style.display = 'inline';
+      signedInUser.disabled = true;
+    }).catch( error => {
+      console.error(error);
+    });
+  };
+
+  firebaseButtonChangeDisplayName.onclick = e => {
+    e.target.style.display = 'none';
+    firebaseButtonSubmitDisplayName
+      .style.display = 'inline';
+    signedInUser.disabled = false;
+    signedInUser.focus();
+  };
 
   firebaseButtonSignIn.addEventListener(
     'click', toggleSignIn, false

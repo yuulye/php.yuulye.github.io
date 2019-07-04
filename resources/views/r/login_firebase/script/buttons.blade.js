@@ -3,6 +3,7 @@ function signOut() {
     firebase.auth().signOut();
   }
 }
+
 function toggleSignIn() {
   if (firebase.auth().currentUser) {
     firebase.auth().signOut();
