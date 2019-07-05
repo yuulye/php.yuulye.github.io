@@ -1,13 +1,14 @@
 #loader {
 	text-align: center;
+  padding-top: 140px;
 }
 #firebaseLoginFormWrapper {
 	display: none;
   text-align: center;
+  padding-top: 128px;
 }
 #firebaseLoginForm {
   display: inline-block;
-  text-align: left;
 }
 
 #firebaseLoginForm input[type="text"]
@@ -20,4 +21,5 @@
 	box-sizing:border-box;
 	margin: 0;
 	padding: 0;
+  text-align: center;
 }

@@ -1,0 +1,17 @@
+
+table#tictactoeBoard {
+  margin: auto;
+}
+table#tictactoeBoard
+, table#tictactoeBoard tr
+, table#tictactoeBoard tr td
+{
+  border: 1px solid black;
+}
+table#tictactoeBoard tr td {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32px;
+}

@@ -30,7 +30,6 @@ function toggleSignIn() {
       } else {
         alert(errorMessage);
       }
-      console.log(error);
     });
   }
 }
@@ -58,7 +57,6 @@ function handleSignUp() {
     } else {
       alert(errorMessage);
     }
-    console.log(error);
   });
 }
 
@@ -83,6 +81,5 @@ function sendPasswordReset() {
     } else if (errorCode == 'auth/user-not-found') {
       alert(errorMessage);
     }
-    console.log(error);
   });
 }

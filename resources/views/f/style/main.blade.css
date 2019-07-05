@@ -1,0 +1,13 @@
+#signedInUserWrapper > div {
+  padding: 8px 4px 4px;
+  text-align: center;
+}
+#signedInUserWrapper #signedInUser {
+  text-align: center;
+}
+
+#signedInUserWrapper > div input
+, #signedInUserWrapper > div button
+{
+  margin: 4px;
+}

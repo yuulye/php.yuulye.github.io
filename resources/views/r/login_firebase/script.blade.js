@@ -24,7 +24,7 @@ function initApp() {
   /* events */
 
   firebaseButtonSubmitDisplayName.onclick = e => {
-    if (signedInUser.value.length < 6) {
+    if (signedInUser.value.length < 3) {
       alert('Display name is too short!');
       return;
     }
@@ -70,7 +70,3 @@ function initApp() {
 function firebaseLoginFormSubmit() {
   return false;
 }
-
-window.onload = function() {
-  initApp();
-};

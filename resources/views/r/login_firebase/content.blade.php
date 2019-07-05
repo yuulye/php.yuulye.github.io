@@ -1,4 +1,5 @@
 <div id="loader">loading... please wait</div>
+
 <div id="firebaseLoginFormWrapper">
   <form
 		id="firebaseLoginForm"
@@ -17,6 +18,8 @@
 				name="password" placeholder="Password"/>
 		</div>
 
+    <br/>
+
 		<div style="text-align: center;">
 			<button id="firebaseButtonSignIn">
 				Sign In
@@ -32,22 +35,3 @@
   </form>
 </div>
 
-<div style="display: none;" id="signedInUserWrapper">
-  <input
-    disabled type="text" id="signedInUser"
-  />
-	<button
-		style="display: none;"
-		id="firebaseButtonEmailVerification"
-	>Email Verification</button>
-	<button
-		id="firebaseButtonChangeDisplayName"
-	>Change Display Name</button>
-	<button
-    style="display: none;"
-		id="firebaseButtonSubmitDisplayName"
-	>Submit</button>
-	<button
-		id="firebaseButtonSignOut"
-	>Sign Out</button>
-</div>
